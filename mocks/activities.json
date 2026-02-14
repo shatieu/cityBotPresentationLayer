@@ -1,0 +1,189 @@
+{
+  "data": [
+    {
+      "id": "b2c3d4e5-bb01-4000-8000-000000000001",
+      "title": "Taneční kurz pro dospělé — latinskoamerické tance",
+      "category": "dance",
+      "schedule": "Pondělí 18:00–19:30",
+      "price": "250 Kč/lekce",
+      "place": {
+        "id": "a1b2c3d4-6666-4000-8000-000000000001",
+        "name": "Sportovní hala Znojmo",
+        "slug": "sportovni-hala-znojmo",
+        "type": "sport",
+        "address": "Dvořákova 19, 669 02 Znojmo",
+        "lat": 48.8580,
+        "lng": 16.0545
+      },
+      "contact": "+420 604 123 456",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:tanecni-skola-znojmo",
+        "updated_at": "2026-02-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "b2c3d4e5-bb01-4000-8000-000000000002",
+      "title": "Jóga pro začátečníky i pokročilé",
+      "category": "sports",
+      "schedule": "Úterý a čtvrtek 7:00–8:15",
+      "price": "200 Kč/lekce",
+      "place": {
+        "id": "b2c3d4e5-bb01-4000-8000-100000000001",
+        "name": "Studio Balance Znojmo",
+        "slug": "studio-balance-znojmo",
+        "type": "business",
+        "address": "Vídeňská 22, 669 02 Znojmo",
+        "lat": 48.8530,
+        "lng": 16.0510
+      },
+      "contact": "+420 773 456 789",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:studio-balance",
+        "updated_at": "2026-01-28T08:00:00Z"
+      }
+    },
+    {
+      "id": "b2c3d4e5-bb01-4000-8000-000000000003",
+      "title": "Kurz angličtiny — úroveň B1/B2",
+      "category": "languages",
+      "schedule": "Středa 17:00–18:30",
+      "price": "180 Kč/lekce",
+      "place": {
+        "id": "b2c3d4e5-bb01-4000-8000-100000000002",
+        "name": "Jazyková škola Lingua Znojmo",
+        "slug": "jazykova-skola-lingua-znojmo",
+        "type": "business",
+        "address": "Masarykovo náměstí 15, 669 02 Znojmo",
+        "lat": 48.8561,
+        "lng": 16.0483
+      },
+      "contact": "+420 515 223 100",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:lingua-znojmo",
+        "updated_at": "2026-01-25T12:00:00Z"
+      }
+    },
+    {
+      "id": "b2c3d4e5-bb01-4000-8000-000000000004",
+      "title": "Výtvarný workshop — akvarelová malba",
+      "category": "art",
+      "schedule": "Sobota 10:00–12:30",
+      "price": "350 Kč/lekce vč. materiálu",
+      "place": {
+        "id": "b2c3d4e5-bb01-4000-8000-100000000003",
+        "name": "Galerie a ateliér Na Věži",
+        "slug": "galerie-atelier-na-vezi",
+        "type": "business",
+        "address": "Velká Michalská 8, 669 02 Znojmo",
+        "lat": 48.8551,
+        "lng": 16.0476
+      },
+      "contact": "+420 606 234 567",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-20T14:00:00Z"
+      }
+    },
+    {
+      "id": "b2c3d4e5-bb01-4000-8000-000000000005",
+      "title": "Sportovní přípravka pro děti 5–8 let",
+      "category": "sports",
+      "schedule": "Pondělí a středa 15:30–16:30",
+      "price": "150 Kč/lekce",
+      "place": {
+        "id": "a1b2c3d4-6666-4000-8000-000000000001",
+        "name": "Sportovní hala Znojmo",
+        "slug": "sportovni-hala-znojmo",
+        "type": "sport",
+        "address": "Dvořákova 19, 669 02 Znojmo",
+        "lat": 48.8580,
+        "lng": 16.0545
+      },
+      "contact": "+420 515 216 300",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:sportovni-hala-znojmo",
+        "updated_at": "2026-02-03T09:00:00Z"
+      }
+    },
+    {
+      "id": "b2c3d4e5-bb01-4000-8000-000000000006",
+      "title": "Lekce kytary pro začátečníky",
+      "category": "music",
+      "schedule": "Čtvrtek 16:00–17:00",
+      "price": "300 Kč/lekce",
+      "place": {
+        "id": "b2c3d4e5-bb01-4000-8000-100000000004",
+        "name": "ZUŠ Znojmo",
+        "slug": "zus-znojmo",
+        "type": "business",
+        "address": "Rooseveltova 21, 669 02 Znojmo",
+        "lat": 48.8563,
+        "lng": 16.0505
+      },
+      "contact": "+420 515 221 500",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:zus-znojmo",
+        "updated_at": "2026-01-30T11:00:00Z"
+      }
+    },
+    {
+      "id": "b2c3d4e5-bb01-4000-8000-000000000007",
+      "title": "Keramická dílna — točení na kruhu",
+      "category": "crafts",
+      "schedule": "Pátek 17:00–19:00",
+      "price": "400 Kč/lekce vč. materiálu",
+      "place": {
+        "id": "b2c3d4e5-bb01-4000-8000-100000000005",
+        "name": "Keramická dílna U Dyje",
+        "slug": "keramicka-dilna-u-dyje",
+        "type": "business",
+        "address": "Loucká 18, 669 02 Znojmo",
+        "lat": 48.8588,
+        "lng": 16.0555
+      },
+      "contact": "+420 720 345 678",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:keramika-u-dyje",
+        "updated_at": "2026-02-02T10:00:00Z"
+      }
+    },
+    {
+      "id": "b2c3d4e5-bb01-4000-8000-000000000008",
+      "title": "Karate — tréninky pro mládež a dospělé",
+      "category": "sports",
+      "schedule": "Úterý a pátek 18:00–19:30",
+      "price": "1 800 Kč/měsíc",
+      "place": {
+        "id": "a1b2c3d4-6666-4000-8000-000000000001",
+        "name": "Sportovní hala Znojmo",
+        "slug": "sportovni-hala-znojmo",
+        "type": "sport",
+        "address": "Dvořákova 19, 669 02 Znojmo",
+        "lat": 48.8580,
+        "lng": 16.0545
+      },
+      "contact": "+420 608 567 890",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-22T15:00:00Z"
+      }
+    }
+  ],
+  "total": 8
+}

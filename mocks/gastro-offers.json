@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": "go-1",
+      "place_name": "Restaurace U Karla",
+      "place_slug": "u-karla",
+      "title": "Polvek\u00e1rna zdarma",
+      "description": "Ke ka\u017ed\u00e9mu hlavn\u00edmu j\u00eddlu pol\u00e9vka zdarma.",
+      "valid_until": "2026-02-28",
+      "type": "discount"
+    },
+    {
+      "id": "go-2",
+      "place_name": "Caf\u00e9 N\u00e1m\u011bst\u00ed",
+      "place_slug": "cafe-namesti",
+      "title": "Happy hour k\u00e1va",
+      "description": "K\u00e1va za 39 K\u010d ka\u017ed\u00fd den 14\u201316h.",
+      "valid_until": "2026-03-15",
+      "type": "happy_hour"
+    },
+    {
+      "id": "go-3",
+      "place_name": "Pizzerie Roma",
+      "place_slug": "pizzerie-roma",
+      "title": "2+1 pizza zdarma",
+      "description": "Objednejte 2 pizzy, 3. dostanete zdarma.",
+      "valid_until": "2026-02-20",
+      "type": "deal"
+    },
+    {
+      "id": "go-4",
+      "place_name": "Vinot\u00e9ka Znojmo",
+      "place_slug": "vinoteka-znojmo",
+      "title": "Degustace pro dva",
+      "description": "Degustace 5 v\u00edn pro dva za 490 K\u010d.",
+      "valid_until": "2026-03-01",
+      "type": "event"
+    }
+  ]
+}

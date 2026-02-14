@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="480" viewBox="0 0 1120 480">
+  <rect width="1120" height="480" fill="#E4EDDA"/>
+  <defs>
+    <linearGradient id="grad3" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" style="stop-color:#A3C47D;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#F2F6EE;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1120" height="480" fill="url(#grad3)"/>
+  <text x="560" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="32" font-weight="600" fill="#2D3A1E">Podzemí</text>
+  <text x="560" y="270" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#5C5850">Historické labyrinty pod městem</text>
+</svg>

@@ -1,0 +1,52 @@
+{
+  "id": "a1b2c3d4-4444-4000-8000-000000000002",
+  "name": "Znojemský hrad",
+  "slug": "znojemsky-hrad",
+  "type": "attraction",
+  "address": "Hradní 84/1, 669 02 Znojmo",
+  "lat": 48.8538,
+  "lng": 16.0450,
+  "phone": "+420 515 282 211",
+  "website": "https://www.znojmuz.cz/hrad",
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "human-verified",
+    "source": "znojmuz.cz",
+    "updated_at": "2026-01-10T08:00:00Z"
+  },
+  "description": "Znojemský hrad stojí na skalním ostrohu nad řekou Dyjí a je jednou z dominant města. Původně raně středověký hrad byl v 16. století přestavěn na renesanční zámek. Dnes slouží jako sídlo Jihomoravského muzea ve Znojmě a nabízí stálé expozice věnované historii Znojemska, přírodovědě a výtvarnému umění. Součástí areálu je i románská rotunda sv. Kateřiny s unikátními nástěnnými malbami z 12. století. Z hradní věže se otevírá nádherný výhled na město a údolí Dyje.",
+  "opening_hours": {
+    "monday": "zavřeno",
+    "tuesday": "09:00–17:00",
+    "wednesday": "09:00–17:00",
+    "thursday": "09:00–17:00",
+    "friday": "09:00–17:00",
+    "saturday": "09:00–18:00",
+    "sunday": "09:00–18:00"
+  },
+  "photos": [],
+  "links": {
+    "facebook": "https://www.facebook.com/muzeum.znojmo",
+    "wikipedia": "https://cs.wikipedia.org/wiki/Znojemsk%C3%BD_hrad",
+    "google_maps": "https://maps.google.com/?cid=12345678901234571"
+  },
+  "today_menu": null,
+  "showtimes": null,
+  "tasting_schedule": null,
+  "upcoming_events": [
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000001",
+      "title": "Znojemské historické vinobraní 2026",
+      "date_start": "2026-09-11T10:00:00Z",
+      "date_end": "2026-09-13T22:00:00Z",
+      "category": "festivals"
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000002",
+      "title": "Hradozámecká noc na Znojemském hradě",
+      "date_start": "2026-08-29T18:00:00Z",
+      "date_end": "2026-08-29T23:59:00Z",
+      "category": "festivals"
+    }
+  ]
+}

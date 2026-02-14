@@ -1,0 +1,83 @@
+{
+  "data": [
+    {
+      "id": "f6a7b8c9-ee01-4000-8000-000000000001",
+      "title": "Oznámení o zahájení stavebního řízení — rekonstrukce chodníků ul. Pražská",
+      "published_at": "2026-02-03T08:00:00Z",
+      "expires_at": "2026-03-05T23:59:59Z",
+      "document_url": "https://www.znojmocity.cz/uredni-deska/stavebni-rizeni-chodnik-prazska-2026.pdf",
+      "category": "stavební řízení",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/uredni-deska",
+        "updated_at": "2026-02-03T08:00:00Z"
+      }
+    },
+    {
+      "id": "f6a7b8c9-ee01-4000-8000-000000000002",
+      "title": "Veřejné projednání — změna územního plánu č. 12 v lokalitě Kasárna",
+      "published_at": "2026-02-05T10:00:00Z",
+      "expires_at": "2026-03-10T23:59:59Z",
+      "document_url": "https://www.znojmocity.cz/uredni-deska/verejne-projednani-up-kasarna.pdf",
+      "category": "veřejné projednání",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/uredni-deska",
+        "updated_at": "2026-02-05T10:00:00Z"
+      }
+    },
+    {
+      "id": "f6a7b8c9-ee01-4000-8000-000000000003",
+      "title": "Uzavírka silnice II/408 — oprava mostu přes Dyji, objízdná trasa přes Dobšice",
+      "published_at": "2026-02-01T07:00:00Z",
+      "expires_at": "2026-04-30T23:59:59Z",
+      "document_url": "https://www.znojmocity.cz/uredni-deska/uzavirka-most-dyje-2026.pdf",
+      "category": "uzavírka komunikace",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/uredni-deska",
+        "updated_at": "2026-02-01T07:00:00Z"
+      }
+    },
+    {
+      "id": "f6a7b8c9-ee01-4000-8000-000000000004",
+      "title": "Oznámení o změně využití území — parcela č. 1245/3, k.ú. Znojmo-město",
+      "published_at": "2026-01-28T09:00:00Z",
+      "expires_at": "2026-02-28T23:59:59Z",
+      "document_url": "https://www.znojmocity.cz/uredni-deska/zmena-uzemi-1245-3.pdf",
+      "category": "využití území",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/uredni-deska",
+        "updated_at": "2026-01-28T09:00:00Z"
+      }
+    },
+    {
+      "id": "f6a7b8c9-ee01-4000-8000-000000000005",
+      "title": "Vyhlášení veřejné zakázky — dodávka městského mobiliáře pro centrum Znojma",
+      "published_at": "2026-02-06T10:00:00Z",
+      "expires_at": "2026-03-15T23:59:59Z",
+      "document_url": "https://www.znojmocity.cz/uredni-deska/zakazka-mobiliar-centrum.pdf",
+      "category": "veřejná zakázka",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/uredni-deska",
+        "updated_at": "2026-02-06T10:00:00Z"
+      }
+    },
+    {
+      "id": "f6a7b8c9-ee01-4000-8000-000000000006",
+      "title": "Obecně závazná vyhláška č. 1/2026 — regulace nočního klidu v centru města",
+      "published_at": "2026-01-25T08:00:00Z",
+      "expires_at": "2026-07-25T23:59:59Z",
+      "document_url": "https://www.znojmocity.cz/uredni-deska/vyhlaska-nocni-klid-2026.pdf",
+      "category": "změna vyhlášky",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/uredni-deska",
+        "updated_at": "2026-01-25T08:00:00Z"
+      }
+    }
+  ],
+  "total": 6
+}

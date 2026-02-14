@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* =================================================================
+   DESIGN TOKENS
+   Changing values here propagates to the entire application.
+   See ../VISUAL_IDENTITY.md for the rationale behind each value.
+   ================================================================= */
+
+@theme {
+  /* --- Colors: Green (primary) --- */
+  --color-green-900: #2D3A1E;
+  --color-green-700: #4A6B2A;
+  --color-green-500: #5E8A35;
+  --color-green-300: #A3C47D;
+  --color-green-100: #E4EDDA;
+  --color-green-50:  #F2F6EE;
+
+  /* --- Colors: Amber (accent) --- */
+  --color-amber-700: #B8860B;
+  --color-amber-500: #D4A024;
+  --color-amber-300: #E8C965;
+  --color-amber-100: #FDF4DC;
+
+  /* --- Colors: Warm neutrals --- */
+  --color-gray-900:  #2C2A26;
+  --color-gray-700:  #5C5850;
+  --color-gray-500:  #8A857C;
+  --color-gray-300:  #C4BFB6;
+  --color-gray-100:  #EDEAE5;
+  --color-surface:   #F5F3EF;
+  --color-white:     #FEFEFE;
+
+  /* --- Colors: Semantic --- */
+  --color-success:   #5E8A35;
+  --color-warning:   #D4A024;
+  --color-error:     #C4513A;
+
+  /* --- Typography --- */
+  --font-heading: "Space Grotesk", system-ui, sans-serif;
+  --font-body:    "Outfit", system-ui, sans-serif;
+  --font-data:    "JetBrains Mono", monospace;
+
+  /* --- Radius --- */
+  --radius-sm:   2px;
+  --radius-base: 4px;
+
+  /* --- Colors: Terracotta (accent) --- */
+  --color-terracotta-700: #C4513A;
+  --color-terracotta-500: #D4715A;
+  --color-terracotta-100: #FBEAE6;
+
+  /* --- Shadows --- */
+  --shadow-card:       0 1px 3px rgba(44, 42, 38, 0.08), 0 1px 2px rgba(44, 42, 38, 0.04);
+  --shadow-card-hover: 0 4px 12px rgba(44, 42, 38, 0.10), 0 2px 4px rgba(44, 42, 38, 0.06);
+  --shadow-card-lift:  0 8px 24px rgba(44, 42, 38, 0.12), 0 4px 8px rgba(44, 42, 38, 0.06);
+  --shadow-nav:        0 1px 2px rgba(44, 42, 38, 0.06);
+  --shadow-glass:      0 2px 8px rgba(44, 42, 38, 0.06), 0 0 1px rgba(44, 42, 38, 0.08);
+  --shadow-glass-hover: 0 8px 24px rgba(44, 42, 38, 0.10), 0 2px 6px rgba(44, 42, 38, 0.06);
+
+  /* --- Spacing (extends Tailwind defaults) --- */
+  --spacing-section: 48px;
+
+  /* --- Breakpoints --- */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-gray-900);
+  font-family: var(--font-body);
+}

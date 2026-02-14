@@ -1,0 +1,405 @@
+{
+  "data": [
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000001",
+      "name": "MUDr. Jana Horáková — praktický lékař",
+      "slug": "mudr-jana-horakova",
+      "type": "business",
+      "address": "Pražská 29, 669 02 Znojmo",
+      "lat": 48.8572,
+      "lng": 16.0515,
+      "phone": "+420 515 224 010",
+      "website": null,
+      "thumbnail_url": null,
+      "tags": ["lékař", "praktický lékař", "zdravotnictví"],
+      "ico": "12345678",
+      "services": ["Registrace nových pacientů", "Preventivní prohlídky", "Očkování", "Předoperační vyšetření"],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "nrzp.cz",
+        "updated_at": "2026-01-15T10:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000002",
+      "name": "MDDr. Tomáš Veselý — zubní ordinace",
+      "slug": "mddr-tomas-vesely",
+      "type": "business",
+      "address": "Horní náměstí 7, 669 02 Znojmo",
+      "lat": 48.8559,
+      "lng": 16.0490,
+      "phone": "+420 515 222 030",
+      "website": "https://www.zubar-vesely.cz",
+      "thumbnail_url": null,
+      "tags": ["zubař", "dentista", "zdravotnictví"],
+      "ico": "23456789",
+      "services": ["Zubní hygiena", "Bělení zubů", "Implantáty", "Ortodoncie"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:tomas-vesely",
+        "updated_at": "2026-01-20T09:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000003",
+      "name": "JUDr. Martin Svoboda — advokátní kancelář",
+      "slug": "judr-martin-svoboda",
+      "type": "business",
+      "address": "Masarykovo náměstí 18, 669 02 Znojmo",
+      "lat": 48.8560,
+      "lng": 16.0486,
+      "phone": "+420 515 226 050",
+      "website": "https://www.aksvoboda.cz",
+      "thumbnail_url": null,
+      "tags": ["advokát", "právo", "právní služby"],
+      "ico": "34567890",
+      "services": ["Občanské právo", "Rodinné právo", "Nemovitosti", "Obchodní právo", "Trestní právo"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:martin-svoboda",
+        "updated_at": "2026-01-25T11:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000004",
+      "name": "Instalatérství Novák",
+      "slug": "instalaterstvi-novak",
+      "type": "business",
+      "address": "Kotkova 5, 669 02 Znojmo",
+      "lat": 48.8545,
+      "lng": 16.0520,
+      "phone": "+420 604 111 222",
+      "website": null,
+      "thumbnail_url": null,
+      "tags": ["instalatér", "voda", "topení", "řemeslník"],
+      "ico": "45678901",
+      "services": ["Opravy vodovodů", "Montáž topení", "Instalace kotlů", "Havarijní služba"],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "firmy.cz",
+        "updated_at": "2026-01-10T14:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000005",
+      "name": "Elektro Procházka",
+      "slug": "elektro-prochazka",
+      "type": "business",
+      "address": "Pontassievská 8, 669 02 Znojmo",
+      "lat": 48.8571,
+      "lng": 16.0508,
+      "phone": "+420 606 333 444",
+      "website": null,
+      "thumbnail_url": null,
+      "tags": ["elektrikář", "elektroinstalace", "řemeslník"],
+      "ico": "56789012",
+      "services": ["Elektroinstalace", "Revize", "Opravy spotřebičů", "Montáž osvětlení"],
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "firmy.cz",
+        "updated_at": "2026-01-08T10:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000006",
+      "name": "Kadeřnictví Dáša",
+      "slug": "kadernictvi-dasa",
+      "type": "business",
+      "address": "Velká Michalská 16, 669 02 Znojmo",
+      "lat": 48.8549,
+      "lng": 16.0474,
+      "phone": "+420 515 221 600",
+      "website": null,
+      "thumbnail_url": null,
+      "tags": ["kadeřnictví", "krása", "účesy"],
+      "ico": "67890123",
+      "services": ["Dámské střihy", "Pánské střihy", "Barvení", "Společenské účesy", "Keratinová péče"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:dasa-kadernictvi",
+        "updated_at": "2026-02-01T08:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000007",
+      "name": "Autoservis Dyje",
+      "slug": "autoservis-dyje",
+      "type": "business",
+      "address": "Průmyslová 12, 669 02 Znojmo",
+      "lat": 48.8610,
+      "lng": 16.0580,
+      "phone": "+420 515 228 400",
+      "website": "https://www.autoservisdyje.cz",
+      "thumbnail_url": null,
+      "tags": ["autoservis", "mechanik", "opravy aut"],
+      "ico": "78901234",
+      "services": ["Servis osobních vozidel", "Diagnostika", "Přezutí pneumatik", "STK příprava", "Klimatizace"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:autoservis-dyje",
+        "updated_at": "2026-01-28T09:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000008",
+      "name": "Účetnictví Dvořáková",
+      "slug": "ucetnictvi-dvorakova",
+      "type": "business",
+      "address": "Jezuitské náměstí 3, 669 02 Znojmo",
+      "lat": 48.8558,
+      "lng": 16.0466,
+      "phone": "+420 515 225 100",
+      "website": "https://www.ucetnictvi-dvorakova.cz",
+      "thumbnail_url": null,
+      "tags": ["účetnictví", "daně", "finance"],
+      "ico": "89012345",
+      "services": ["Vedení účetnictví", "Daňová přiznání", "Mzdová agenda", "Ekonomické poradenství"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:dvorakova-ucetnictvi",
+        "updated_at": "2026-01-22T10:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000009",
+      "name": "Reality Znojmo — Ing. Pavel Černý",
+      "slug": "reality-znojmo-cerny",
+      "type": "business",
+      "address": "Obrokova 3, 669 02 Znojmo",
+      "lat": 48.8556,
+      "lng": 16.0495,
+      "phone": "+420 777 888 999",
+      "website": "https://www.realityznojmo.cz",
+      "thumbnail_url": null,
+      "tags": ["reality", "nemovitosti", "pronájem", "prodej"],
+      "ico": "90123456",
+      "services": ["Prodej nemovitostí", "Pronájem bytů", "Odhady nemovitostí", "Správa nemovitostí"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:pavel-cerny",
+        "updated_at": "2026-02-04T14:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000010",
+      "name": "Fotostudio Znojmo — Marek Kučera",
+      "slug": "fotostudio-znojmo-kucera",
+      "type": "business",
+      "address": "Kovářská 8, 669 02 Znojmo",
+      "lat": 48.8547,
+      "lng": 16.0497,
+      "phone": "+420 608 765 432",
+      "website": "https://www.fotokucera.cz",
+      "thumbnail_url": null,
+      "tags": ["fotograf", "fotostudio", "svatby"],
+      "ico": "01234567",
+      "services": ["Svatební fotografie", "Rodinné portréty", "Produktová fotografie", "Pas a doklady"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:marek-kucera",
+        "updated_at": "2026-01-18T13:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000011",
+      "name": "IT Servis Znojmo — CompuHelp",
+      "slug": "it-servis-compuhelp",
+      "type": "business",
+      "address": "Pražská 45, 669 02 Znojmo",
+      "lat": 48.8574,
+      "lng": 16.0525,
+      "phone": "+420 515 230 200",
+      "website": "https://www.compuhelp.cz",
+      "thumbnail_url": null,
+      "tags": ["IT", "počítače", "servis", "webové stránky"],
+      "ico": "11223344",
+      "services": ["Opravy počítačů", "Tvorba webových stránek", "Správa sítí", "IT poradenství", "Zálohovací řešení"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:compuhelp",
+        "updated_at": "2026-02-02T09:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000012",
+      "name": "Květinářství U Lípy",
+      "slug": "kvetinarstvi-u-lipy",
+      "type": "business",
+      "address": "Horní náměstí 14, 669 02 Znojmo",
+      "lat": 48.8557,
+      "lng": 16.0493,
+      "phone": "+420 515 222 700",
+      "website": null,
+      "thumbnail_url": null,
+      "tags": ["květinářství", "květiny", "vazby", "dekorace"],
+      "ico": "22334455",
+      "services": ["Svatební kytice", "Smuteční vazby", "Pokojové rostliny", "Doručení květin", "Dekorace na akce"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:kvetinarstvi-lipa",
+        "updated_at": "2026-01-30T08:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000013",
+      "name": "MVDr. Lucie Marková — veterinární ordinace",
+      "slug": "mvdr-lucie-markova",
+      "type": "business",
+      "address": "Vídeňská 35, 669 02 Znojmo",
+      "lat": 48.8528,
+      "lng": 16.0512,
+      "phone": "+420 515 226 800",
+      "website": "https://www.vetznojmo.cz",
+      "thumbnail_url": null,
+      "tags": ["veterinář", "zvířata", "zdravotnictví"],
+      "ico": "33445566",
+      "services": ["Vakcinace", "Chirurgické zákroky", "Zubní ošetření", "Preventivní péče", "Čipování"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:lucie-markova",
+        "updated_at": "2026-01-25T10:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000014",
+      "name": "Fyzioterapie Znojmo — Mgr. Eva Pokorná",
+      "slug": "fyzioterapie-pokorna",
+      "type": "business",
+      "address": "Mariánské náměstí 9, 669 02 Znojmo",
+      "lat": 48.8566,
+      "lng": 16.0500,
+      "phone": "+420 730 111 222",
+      "website": "https://www.fyziopokornaznojmo.cz",
+      "thumbnail_url": null,
+      "tags": ["fyzioterapie", "rehabilitace", "zdravotnictví"],
+      "ico": "44556677",
+      "services": ["Léčebná rehabilitace", "Manuální terapie", "Elektroléčba", "Masáže", "Cvičení pro těhotné"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:eva-pokorna",
+        "updated_at": "2026-02-03T11:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000015",
+      "name": "Pekárna Znojemský chléb",
+      "slug": "pekarna-znojemsky-chleb",
+      "type": "business",
+      "address": "Zelenářská 3, 669 02 Znojmo",
+      "lat": 48.8554,
+      "lng": 16.0498,
+      "phone": "+420 515 229 300",
+      "website": null,
+      "thumbnail_url": null,
+      "tags": ["pekárna", "pečivo", "chléb", "cukrárna"],
+      "ico": "55667788",
+      "services": ["Čerstvý chléb", "Zákusky na objednávku", "Dorty", "Bezlepkové pečivo", "Rozvoz"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:znojemsky-chleb",
+        "updated_at": "2026-01-20T07:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000016",
+      "name": "Tiskárna Znojmo — PrintExpress",
+      "slug": "tiskarna-printexpress",
+      "type": "business",
+      "address": "Dolní Česká 15, 669 02 Znojmo",
+      "lat": 48.8546,
+      "lng": 16.0503,
+      "phone": "+420 515 227 400",
+      "website": "https://www.printexpress-znojmo.cz",
+      "thumbnail_url": null,
+      "tags": ["tiskárna", "tisk", "kopírování", "grafika"],
+      "ico": "66778899",
+      "services": ["Digitální tisk", "Ofsetový tisk", "Velkoformátový tisk", "Vazby dokumentů", "Vizitky"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:printexpress",
+        "updated_at": "2026-01-28T10:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000017",
+      "name": "Pojišťovací poradce — Ing. Radek Malý",
+      "slug": "pojistovaci-poradce-maly",
+      "type": "business",
+      "address": "Obroková 7, 669 02 Znojmo",
+      "lat": 48.8555,
+      "lng": 16.0492,
+      "phone": "+420 602 444 555",
+      "website": null,
+      "thumbnail_url": null,
+      "tags": ["pojištění", "finance", "poradenství"],
+      "ico": "77889900",
+      "services": ["Životní pojištění", "Pojištění nemovitostí", "Cestovní pojištění", "Pojištění vozidel", "Penzijní spoření"],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "firmy.cz",
+        "updated_at": "2026-01-15T13:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000018",
+      "name": "Taxi Znojmo — Rychlá jízda",
+      "slug": "taxi-rychla-jizda",
+      "type": "business",
+      "address": "Nádražní 1, 669 02 Znojmo",
+      "lat": 48.8585,
+      "lng": 16.0540,
+      "phone": "+420 800 123 456",
+      "website": "https://www.taxiznojmo.cz",
+      "thumbnail_url": null,
+      "tags": ["taxi", "doprava", "přeprava"],
+      "ico": "88990011",
+      "services": ["Městská přeprava", "Převoz na letiště", "Firemní přeprava", "Předobjednávky", "Noční služba"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:rychla-jizda",
+        "updated_at": "2026-02-05T08:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000019",
+      "name": "Zámečnictví Kovář",
+      "slug": "zamecnictvi-kovar",
+      "type": "business",
+      "address": "Kovářská 22, 669 02 Znojmo",
+      "lat": 48.8543,
+      "lng": 16.0493,
+      "phone": "+420 605 666 777",
+      "website": null,
+      "thumbnail_url": null,
+      "tags": ["zámečník", "klíče", "zámky", "řemeslník"],
+      "ico": "99001122",
+      "services": ["Výroba klíčů", "Otevírání zámků", "Montáž bezpečnostních zámků", "Výroba mříží", "Nouzové otevírání"],
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "firmy.cz",
+        "updated_at": "2026-01-12T11:00:00Z"
+      }
+    },
+    {
+      "id": "c3d4e5f6-cc01-4000-8000-000000000020",
+      "name": "Úklidový servis Čistá domácnost",
+      "slug": "uklidovy-servis-cista-domacnost",
+      "type": "business",
+      "address": "Sokolská 6, 669 02 Znojmo",
+      "lat": 48.8568,
+      "lng": 16.0530,
+      "phone": "+420 773 888 999",
+      "website": "https://www.cistadomacnost-znojmo.cz",
+      "thumbnail_url": null,
+      "tags": ["úklid", "čištění", "domácnost"],
+      "ico": "10203040",
+      "services": ["Úklid domácností", "Úklid kanceláří", "Mytí oken", "Čištění koberců", "Generální úklid"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:cista-domacnost",
+        "updated_at": "2026-01-30T12:00:00Z"
+      }
+    }
+  ],
+  "total": 20
+}

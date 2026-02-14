@@ -1,0 +1,365 @@
+{
+  "data": [
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000001",
+      "title": "Znojemské historické vinobraní 2026",
+      "date_start": "2026-09-11T10:00:00Z",
+      "date_end": "2026-09-13T22:00:00Z",
+      "category": "festivals",
+      "place": {
+        "id": "a1b2c3d4-4444-4000-8000-000000000002",
+        "name": "Znojemský hrad",
+        "slug": "znojemsky-hrad",
+        "type": "attraction",
+        "address": "Hradní 84/1, 669 02 Znojmo",
+        "lat": 48.8538,
+        "lng": 16.0450,
+        "phone": "+420 515 282 211",
+        "website": "https://www.znojmuz.cz/hrad",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "human-verified",
+          "source": "znojmuz.cz",
+          "updated_at": "2026-01-10T08:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojemske-vinobrani.cz",
+        "updated_at": "2026-01-20T10:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000002",
+      "title": "Hradozámecká noc na Znojemském hradě",
+      "date_start": "2026-08-29T18:00:00Z",
+      "date_end": "2026-08-29T23:59:00Z",
+      "category": "festivals",
+      "place": {
+        "id": "a1b2c3d4-4444-4000-8000-000000000002",
+        "name": "Znojemský hrad",
+        "slug": "znojemsky-hrad",
+        "type": "attraction",
+        "address": "Hradní 84/1, 669 02 Znojmo",
+        "lat": 48.8538,
+        "lng": 16.0450,
+        "phone": "+420 515 282 211",
+        "website": "https://www.znojmuz.cz/hrad",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "human-verified",
+          "source": "znojmuz.cz",
+          "updated_at": "2026-01-10T08:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmuz.cz",
+        "updated_at": "2026-01-15T09:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000003",
+      "title": "Znojmo Food Festival",
+      "date_start": "2026-05-22T10:00:00Z",
+      "date_end": "2026-05-24T20:00:00Z",
+      "category": "festivals",
+      "place": {
+        "id": "a1b2c3d4-4444-4000-8000-000000000003",
+        "name": "Loucký klášter",
+        "slug": "loucky-klaster",
+        "type": "attraction",
+        "address": "Loucká 1, 669 02 Znojmo",
+        "lat": 48.8590,
+        "lng": 16.0560,
+        "phone": "+420 515 282 211",
+        "website": "https://www.louckyklaster.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "human-verified",
+          "source": "znojmocity.cz",
+          "updated_at": "2026-01-08T09:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "ai-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-02-01T14:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000004",
+      "title": "Koncert Čechomor — Kooperativa Tour",
+      "date_start": "2026-03-15T19:00:00Z",
+      "date_end": "2026-03-15T22:00:00Z",
+      "category": "concerts",
+      "place": {
+        "id": "a1b2c3d4-6666-4000-8000-000000000001",
+        "name": "Sportovní hala Znojmo",
+        "slug": "sportovni-hala-znojmo",
+        "type": "sport",
+        "address": "Dvořákova 19, 669 02 Znojmo",
+        "lat": 48.8580,
+        "lng": 16.0545,
+        "phone": "+420 515 216 300",
+        "website": null,
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "auto-scraped",
+          "source": "znojmocity.cz",
+          "updated_at": "2026-01-05T10:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "ticketportal.cz",
+        "updated_at": "2026-02-03T12:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000005",
+      "title": "Degustace vín ročníku 2025 — Znovín Znojmo",
+      "date_start": "2026-02-14T14:00:00Z",
+      "date_end": "2026-02-14T18:00:00Z",
+      "category": "wine",
+      "place": {
+        "id": "a1b2c3d4-3333-4000-8000-000000000001",
+        "name": "Znovín Znojmo",
+        "slug": "znovin-znojmo",
+        "type": "winery",
+        "address": "Šatov 404, 671 22 Šatov",
+        "lat": 48.8020,
+        "lng": 16.0110,
+        "phone": "+420 515 266 611",
+        "website": "https://www.znovin.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "owner",
+          "source": "owner:znovin-znojmo",
+          "updated_at": "2026-01-15T10:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:znovin-znojmo",
+        "updated_at": "2026-02-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000006",
+      "title": "Divadelní představení: Noc na Karlštejně",
+      "date_start": "2026-02-21T19:00:00Z",
+      "date_end": "2026-02-21T21:30:00Z",
+      "category": "theatre",
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000006",
+        "name": "Restaurace U Divadla",
+        "slug": "restaurace-u-divadla",
+        "type": "restaurant",
+        "address": "Divadelní náměstí 2, 669 02 Znojmo",
+        "lat": 48.8565,
+        "lng": 16.0475,
+        "phone": "+420 515 222 800",
+        "website": "https://www.udivadlaznojmo.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "human-verified",
+          "source": "owner:jan-vesely",
+          "updated_at": "2026-01-25T11:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "mestskadivadlaznojmo.cz",
+        "updated_at": "2026-01-28T10:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000007",
+      "title": "Orion Znojmo vs. HC Hodonín — Krajská liga",
+      "date_start": "2026-02-08T17:00:00Z",
+      "date_end": "2026-02-08T19:30:00Z",
+      "category": "sport",
+      "place": {
+        "id": "a1b2c3d4-6666-4000-8000-000000000001",
+        "name": "Sportovní hala Znojmo",
+        "slug": "sportovni-hala-znojmo",
+        "type": "sport",
+        "address": "Dvořákova 19, 669 02 Znojmo",
+        "lat": 48.8580,
+        "lng": 16.0545,
+        "phone": "+420 515 216 300",
+        "website": null,
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "auto-scraped",
+          "source": "znojmocity.cz",
+          "updated_at": "2026-01-05T10:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "hokejznojmo.cz",
+        "updated_at": "2026-02-05T16:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000008",
+      "title": "Zimní degustace — Vinařství Lahofer",
+      "date_start": "2026-02-15T15:00:00Z",
+      "date_end": "2026-02-15T19:00:00Z",
+      "category": "wine",
+      "place": {
+        "id": "a1b2c3d4-3333-4000-8000-000000000002",
+        "name": "Vinařství Lahofer",
+        "slug": "vinarstvi-lahofer",
+        "type": "winery",
+        "address": "Brněnská 523, 671 82 Dobšice",
+        "lat": 48.8650,
+        "lng": 16.0720,
+        "phone": "+420 515 275 220",
+        "website": "https://www.lahofer.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "owner",
+          "source": "owner:lahofer",
+          "updated_at": "2026-01-20T08:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:lahofer",
+        "updated_at": "2026-02-01T09:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000009",
+      "title": "Noční prohlídka Znojemského podzemí",
+      "date_start": "2026-02-28T20:00:00Z",
+      "date_end": "2026-02-28T22:00:00Z",
+      "category": "other",
+      "place": {
+        "id": "a1b2c3d4-4444-4000-8000-000000000004",
+        "name": "Podzemí Znojmo",
+        "slug": "podzemi-znojmo",
+        "type": "attraction",
+        "address": "Slepičí trh 2, 669 02 Znojmo",
+        "lat": 48.8555,
+        "lng": 16.0490,
+        "phone": "+420 515 221 342",
+        "website": "https://www.znojmocity.cz/podzemi",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "owner",
+          "source": "znojmocity.cz",
+          "updated_at": "2026-01-15T10:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-02-04T11:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000010",
+      "title": "Koncert Kateřiny Marie Tiché v Louckém klášteře",
+      "date_start": "2026-03-07T19:30:00Z",
+      "date_end": "2026-03-07T21:30:00Z",
+      "category": "concerts",
+      "place": {
+        "id": "a1b2c3d4-4444-4000-8000-000000000003",
+        "name": "Loucký klášter",
+        "slug": "loucky-klaster",
+        "type": "attraction",
+        "address": "Loucká 1, 669 02 Znojmo",
+        "lat": 48.8590,
+        "lng": 16.0560,
+        "phone": "+420 515 282 211",
+        "website": "https://www.louckyklaster.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "human-verified",
+          "source": "znojmocity.cz",
+          "updated_at": "2026-01-08T09:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "ticketportal.cz",
+        "updated_at": "2026-02-02T14:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000011",
+      "title": "Jarní otevřené sklepy — Znojemská vinařská podoblast",
+      "date_start": "2026-04-18T10:00:00Z",
+      "date_end": "2026-04-19T18:00:00Z",
+      "category": "wine",
+      "place": {
+        "id": "a1b2c3d4-3333-4000-8000-000000000007",
+        "name": "Chateau Šobes",
+        "slug": "chateau-sobes",
+        "type": "winery",
+        "address": "Šobes, 671 28 Podmolí",
+        "lat": 48.8250,
+        "lng": 15.9720,
+        "phone": "+420 515 266 700",
+        "website": "https://www.sobes.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "owner",
+          "source": "owner:znovin-znojmo",
+          "updated_at": "2026-01-15T10:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "wineofczechrepublic.cz",
+        "updated_at": "2026-02-05T10:00:00Z"
+      }
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000012",
+      "title": "Divadelní představení: Divadlo Bolka Polívky — Šašek a královna",
+      "date_start": "2026-03-21T19:00:00Z",
+      "date_end": "2026-03-21T21:00:00Z",
+      "category": "theatre",
+      "place": {
+        "id": "a1b2c3d4-6666-4000-8000-000000000001",
+        "name": "Sportovní hala Znojmo",
+        "slug": "sportovni-hala-znojmo",
+        "type": "sport",
+        "address": "Dvořákova 19, 669 02 Znojmo",
+        "lat": 48.8580,
+        "lng": 16.0545,
+        "phone": "+420 515 216 300",
+        "website": null,
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "auto-scraped",
+          "source": "znojmocity.cz",
+          "updated_at": "2026-01-05T10:00:00Z"
+        }
+      },
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "ticketportal.cz",
+        "updated_at": "2026-02-06T09:00:00Z"
+      }
+    }
+  ],
+  "total": 12
+}

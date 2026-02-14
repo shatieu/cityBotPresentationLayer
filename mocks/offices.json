@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000001",
+      "name": "Městský úřad Znojmo",
+      "slug": "mestsky-urad-znojmo",
+      "type": "office",
+      "address": "Obroková 1/12, 669 22 Znojmo",
+      "lat": 48.8556,
+      "lng": 16.0488,
+      "phone": "+420 515 216 111",
+      "website": "https://www.znojmocity.cz",
+      "thumbnail_url": null,
+      "department": "Samospráva a státní správa",
+      "services": ["Matrika", "Evidence obyvatel", "Občanské průkazy", "Cestovní pasy", "Stavební úřad", "Živnostenský úřad", "Odbor dopravy"],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-02-06T08:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000002",
+      "name": "Finanční úřad pro Jihomoravský kraj — Územní pracoviště Znojmo",
+      "slug": "financni-urad-znojmo",
+      "type": "office",
+      "address": "náměstí Svobody 8, 669 02 Znojmo",
+      "lat": 48.8563,
+      "lng": 16.0479,
+      "phone": "+420 515 216 411",
+      "website": "https://www.financnisprava.cz",
+      "thumbnail_url": null,
+      "department": "Finanční správa",
+      "services": ["Daňová přiznání", "Registrace k daním", "Daňové poradenství", "Kontrolní hlášení", "Elektronická podání"],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "financnisprava.cz",
+        "updated_at": "2026-01-20T09:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000003",
+      "name": "Katastrální úřad pro Jihomoravský kraj — Katastrální pracoviště Znojmo",
+      "slug": "katastralni-urad-znojmo",
+      "type": "office",
+      "address": "Pontassievská 6, 669 02 Znojmo",
+      "lat": 48.8569,
+      "lng": 16.0507,
+      "phone": "+420 515 255 111",
+      "website": "https://www.cuzk.cz",
+      "thumbnail_url": null,
+      "department": "Katastr nemovitostí",
+      "services": ["Výpisy z katastru", "Vklady vlastnických práv", "Nahlížení do katastru", "Geometrické plány", "Ověřování listin"],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "cuzk.cz",
+        "updated_at": "2026-01-18T10:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000004",
+      "name": "Úřad práce ČR — kontaktní pracoviště Znojmo",
+      "slug": "urad-prace-znojmo",
+      "type": "office",
+      "address": "náměstí Svobody 8, 669 02 Znojmo",
+      "lat": 48.8564,
+      "lng": 16.0481,
+      "phone": "+420 950 175 111",
+      "website": "https://www.uradprace.cz",
+      "thumbnail_url": null,
+      "department": "Zaměstnanost a sociální věci",
+      "services": ["Evidence uchazečů o zaměstnání", "Podpora v nezaměstnanosti", "Rekvalifikace", "Dávky státní sociální podpory", "Příspěvky na bydlení"],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "uradprace.cz",
+        "updated_at": "2026-01-22T08:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000005",
+      "name": "Česká správa sociálního zabezpečení — pracoviště Znojmo",
+      "slug": "cssz-znojmo",
+      "type": "office",
+      "address": "Dvořákova 21, 669 02 Znojmo",
+      "lat": 48.8578,
+      "lng": 16.0543,
+      "phone": "+420 515 209 111",
+      "website": "https://www.cssz.cz",
+      "thumbnail_url": null,
+      "department": "Sociální zabezpečení",
+      "services": ["Důchody", "Nemocenské pojištění", "Evidenční listy", "ELDP", "Informace o pojistném"],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "cssz.cz",
+        "updated_at": "2026-01-25T09:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000006",
+      "name": "Krajská hygienická stanice Jihomoravského kraje — pracoviště Znojmo",
+      "slug": "khs-znojmo",
+      "type": "office",
+      "address": "Pražská 69, 669 02 Znojmo",
+      "lat": 48.8576,
+      "lng": 16.0528,
+      "phone": "+420 515 216 511",
+      "website": "https://www.khsbrno.cz",
+      "thumbnail_url": null,
+      "department": "Ochrana veřejného zdraví",
+      "services": ["Hygiena výživy", "Hygiena práce", "Epidemiologie", "Stížnosti a podněty", "Zdravotní průkazy"],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "khsbrno.cz",
+        "updated_at": "2026-01-15T11:00:00Z"
+      }
+    }
+  ],
+  "total": 6
+}

@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "id": "a7b8c9d0-ff01-4000-8000-000000000001",
+      "title": "28. zasedání Zastupitelstva města Znojma",
+      "date": "2025-12-15",
+      "summary": "Schválení rozpočtu města Znojma na rok 2026 ve výši 1,2 mld. Kč. Projednání investičních priorit: rekonstrukce kanalizace v ulici Loucká, oprava fasády Znojemské besedy, výstavba nových parkovacích míst u nemocnice. Schválení dotací pro sportovní kluby a kulturní organizace.",
+      "minutes_url": "https://www.znojmocity.cz/zastupitelstvo/zapisy/28-zasedani-2025-12-15.pdf",
+      "status": "completed",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/zastupitelstvo",
+        "updated_at": "2025-12-20T10:00:00Z"
+      }
+    },
+    {
+      "id": "a7b8c9d0-ff01-4000-8000-000000000002",
+      "title": "29. zasedání Zastupitelstva města Znojma",
+      "date": "2026-01-27",
+      "summary": "Projednání zprávy o hospodaření města za rok 2025. Schválení prodeje pozemků v průmyslové zóně. Diskuze o projektu revitalizace městského parku u hradeb. Jmenování nových členů komisí rady města. Informace o stavu příprav Znojemského vinobraní 2026.",
+      "minutes_url": "https://www.znojmocity.cz/zastupitelstvo/zapisy/29-zasedani-2026-01-27.pdf",
+      "status": "completed",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/zastupitelstvo",
+        "updated_at": "2026-02-01T14:00:00Z"
+      }
+    },
+    {
+      "id": "a7b8c9d0-ff01-4000-8000-000000000003",
+      "title": "30. zasedání Zastupitelstva města Znojma",
+      "date": "2026-02-24",
+      "summary": "Plánované projednání: schválení závěrečného účtu za rok 2025, aktualizace strategického plánu rozvoje města, návrh na zřízení nové mateřské školy v lokalitě Přímětice, zpráva o činnosti městské policie.",
+      "minutes_url": null,
+      "status": "upcoming",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/zastupitelstvo",
+        "updated_at": "2026-02-06T09:00:00Z"
+      }
+    },
+    {
+      "id": "a7b8c9d0-ff01-4000-8000-000000000004",
+      "title": "31. zasedání Zastupitelstva města Znojma",
+      "date": "2026-03-30",
+      "summary": "Plánované projednání: zpráva o plnění rozpočtu za 1. čtvrtletí 2026, dotační programy pro obnovu památek, projekt cyklostezky Znojmo–Šatov, výběr dodavatele pro rekonstrukci ZŠ Pražská.",
+      "minutes_url": null,
+      "status": "upcoming",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz/zastupitelstvo",
+        "updated_at": "2026-02-06T09:00:00Z"
+      }
+    }
+  ],
+  "total": 4
+}

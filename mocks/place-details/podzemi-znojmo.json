@@ -1,0 +1,45 @@
+{
+  "id": "a1b2c3d4-4444-4000-8000-000000000004",
+  "name": "Podzemí Znojmo",
+  "slug": "podzemi-znojmo",
+  "type": "attraction",
+  "address": "Slepičí trh 2, 669 02 Znojmo",
+  "lat": 48.8555,
+  "lng": 16.0490,
+  "phone": "+420 515 221 342",
+  "website": "https://www.znojmocity.cz/podzemi",
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "znojmocity.cz",
+    "updated_at": "2026-01-15T10:00:00Z"
+  },
+  "description": "Znojemské podzemí je unikátní soustava podzemních chodeb a sklepů pod historickým centrem města. Celková délka chodeb dosahuje téměř 27 km, což z něj činí jeden z nejrozsáhlejších podzemních labyrintů ve střední Evropě. Podzemí vznikalo od 14. století a sloužilo jako úkryt obyvatel v dobách válek, jako skladiště potravin a vína. Prohlídková trasa měří přibližně 1 km a vede návštěvníky čtyřmi podzemními patry do hloubky až 12 metrů. Teplota v podzemí se celoročně pohybuje kolem 11 °C.",
+  "opening_hours": {
+    "monday": "09:00–17:00",
+    "tuesday": "09:00–17:00",
+    "wednesday": "09:00–17:00",
+    "thursday": "09:00–17:00",
+    "friday": "09:00–17:00",
+    "saturday": "09:00–18:00",
+    "sunday": "09:00–18:00"
+  },
+  "photos": [],
+  "links": {
+    "facebook": "https://www.facebook.com/podzemíznojmo",
+    "tripadvisor": "https://www.tripadvisor.com/Attraction-Znojmo-Underground",
+    "google_maps": "https://maps.google.com/?cid=12345678901234572"
+  },
+  "today_menu": null,
+  "showtimes": null,
+  "tasting_schedule": null,
+  "upcoming_events": [
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000009",
+      "title": "Noční prohlídka Znojemského podzemí",
+      "date_start": "2026-02-28T20:00:00Z",
+      "date_end": "2026-02-28T22:00:00Z",
+      "category": "other"
+    }
+  ]
+}

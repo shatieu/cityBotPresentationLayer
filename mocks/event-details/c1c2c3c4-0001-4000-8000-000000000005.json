@@ -1,0 +1,33 @@
+{
+  "id": "c1c2c3c4-0001-4000-8000-000000000005",
+  "title": "Degustace vín ročníku 2025 — Znovín Znojmo",
+  "date_start": "2026-02-14T14:00:00Z",
+  "date_end": "2026-02-14T18:00:00Z",
+  "category": "wine",
+  "place": {
+    "id": "a1b2c3d4-3333-4000-8000-000000000001",
+    "name": "Znovín Znojmo",
+    "slug": "znovin-znojmo",
+    "type": "winery",
+    "address": "Šatov 404, 671 22 Šatov",
+    "lat": 48.8020,
+    "lng": 16.0110,
+    "phone": "+420 515 266 611",
+    "website": "https://www.znovin.cz",
+    "thumbnail_url": null,
+    "provenance": {
+      "trust_tier": "owner",
+      "source": "owner:znovin-znojmo",
+      "updated_at": "2026-01-15T10:00:00Z"
+    }
+  },
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "owner:znovin-znojmo",
+    "updated_at": "2026-02-01T10:00:00Z"
+  },
+  "description": "Valentýnská degustace nových vín ročníku 2025 v hlavním degustačním sálu Znovínu v Šatově. Vinař Pavel Švehla představí 8 vzorků vín z nejlepších viničních poloh znojemské podoblasti, včetně vín z proslulé vinice Šobes. Součástí degustace je komentář k jednotlivým vínům, informace o průběhu ročníku 2025 a lehké občerstvení. Ideální zážitek pro páry i skupiny přátel. Kapacita je omezena na 40 osob, nutná rezervace předem.",
+  "ticket_url": "https://www.znovin.cz/akce/degustace-2025",
+  "photos": []
+}

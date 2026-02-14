@@ -1,0 +1,64 @@
+{
+  "cards": [
+    {
+      "domain": "news",
+      "label": "Novinky",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "domain": "restaurants",
+      "label": "Restaurace",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "domain": "theatre",
+      "label": "Divadlo",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "domain": "activities",
+      "label": "Aktivity a kroužky",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "domain": "classifieds",
+      "label": "Inzerce",
+      "visible": true,
+      "order": 5
+    },
+    {
+      "domain": "council",
+      "label": "Zastupitelstvo",
+      "visible": true,
+      "order": 6
+    },
+    {
+      "domain": "notices",
+      "label": "Úřední deska",
+      "visible": true,
+      "order": 7
+    },
+    {
+      "domain": "businesses",
+      "label": "Firmy a služby",
+      "visible": false,
+      "order": 8
+    },
+    {
+      "domain": "offices",
+      "label": "Úřady",
+      "visible": false,
+      "order": 9
+    },
+    {
+      "domain": "map",
+      "label": "Mapa",
+      "visible": true,
+      "order": 10
+    }
+  ]
+}

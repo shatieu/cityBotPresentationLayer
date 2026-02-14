@@ -1,0 +1,155 @@
+{
+  "data": [
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000001",
+      "title": "Prodám kožený gauč, výborný stav",
+      "ad_type": "offer",
+      "category": "nábytek",
+      "price": "5 000 Kč",
+      "location": "Znojmo",
+      "created_at": "2026-02-05T14:00:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "user:petr-k",
+        "updated_at": "2026-02-05T14:00:00Z"
+      }
+    },
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000002",
+      "title": "Horské kolo Kellys 29\" — málo používané",
+      "ad_type": "offer",
+      "category": "sport a volný čas",
+      "price": "8 500 Kč",
+      "location": "Znojmo",
+      "created_at": "2026-02-04T10:30:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "user:jana-m",
+        "updated_at": "2026-02-04T10:30:00Z"
+      }
+    },
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000003",
+      "title": "Notebook Lenovo ThinkPad — 16 GB RAM, SSD 512 GB",
+      "ad_type": "offer",
+      "category": "elektronika",
+      "price": "12 000 Kč",
+      "location": "Znojmo",
+      "created_at": "2026-02-03T16:45:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "user:martin-v",
+        "updated_at": "2026-02-03T16:45:00Z"
+      }
+    },
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000004",
+      "title": "Hledám byt 2+1 k pronájmu v centru Znojma",
+      "ad_type": "request",
+      "category": "nemovitosti",
+      "price": "do 12 000 Kč/měsíc",
+      "location": "Znojmo",
+      "created_at": "2026-02-06T08:15:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "user:lucie-s",
+        "updated_at": "2026-02-06T08:15:00Z"
+      }
+    },
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000005",
+      "title": "Hledám hlídání dětí — 2x týdně odpoledne",
+      "ad_type": "request",
+      "category": "služby",
+      "price": "150 Kč/hod",
+      "location": "Znojmo",
+      "created_at": "2026-02-02T11:20:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "user:eva-p",
+        "updated_at": "2026-02-02T11:20:00Z"
+      }
+    },
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000006",
+      "title": "Číšník/servírka — Restaurace U Karla, plný úvazek",
+      "ad_type": "job",
+      "category": "gastronomie",
+      "price": "28 000–32 000 Kč/měsíc",
+      "location": "Znojmo",
+      "created_at": "2026-02-01T09:00:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:karel-novak",
+        "updated_at": "2026-02-01T09:00:00Z"
+      }
+    },
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000007",
+      "title": "Prodavač/ka — prodejna potravin, částečný úvazek",
+      "ad_type": "job",
+      "category": "obchod",
+      "price": "160 Kč/hod",
+      "location": "Znojmo",
+      "created_at": "2026-02-04T07:30:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "user:potraviny-abc",
+        "updated_at": "2026-02-04T07:30:00Z"
+      }
+    },
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000008",
+      "title": "Účetní — firma v centru Znojma, HPP",
+      "ad_type": "job",
+      "category": "administrativa",
+      "price": "35 000–40 000 Kč/měsíc",
+      "location": "Znojmo",
+      "created_at": "2026-02-05T10:00:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "user:firma-abc",
+        "updated_at": "2026-02-05T10:00:00Z"
+      }
+    },
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000009",
+      "title": "Prodám dětský kočárek Thule — jako nový",
+      "ad_type": "offer",
+      "category": "pro děti",
+      "price": "6 500 Kč",
+      "location": "Znojmo",
+      "created_at": "2026-02-06T13:00:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "user:tereza-h",
+        "updated_at": "2026-02-06T13:00:00Z"
+      }
+    },
+    {
+      "id": "b8c9d0e1-0001-4000-8000-000000000010",
+      "title": "Hledám řemeslníka na drobné opravy v bytě",
+      "ad_type": "request",
+      "category": "řemesla",
+      "price": "dohodou",
+      "location": "Znojmo",
+      "created_at": "2026-02-07T09:00:00Z",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "user:jiri-d",
+        "updated_at": "2026-02-07T09:00:00Z"
+      }
+    }
+  ],
+  "total": 10
+}

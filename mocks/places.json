@@ -1,0 +1,687 @@
+{
+  "data": [
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000001",
+      "name": "U Karla",
+      "slug": "restaurace-u-karla",
+      "type": "restaurant",
+      "address": "Horní náměstí 10, 669 02 Znojmo",
+      "lat": 48.8558,
+      "lng": 16.0492,
+      "phone": "+420 515 224 100",
+      "website": "https://www.restauraceukarla.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:karel-novak",
+        "updated_at": "2026-02-01T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000002",
+      "name": "Restaurace Himalaya",
+      "slug": "restaurace-himalaya",
+      "type": "restaurant",
+      "address": "Masarykovo náměstí 22, 669 02 Znojmo",
+      "lat": 48.8562,
+      "lng": 16.0485,
+      "phone": "+420 515 226 300",
+      "website": "https://www.himalayaznojmo.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:raj-kumar",
+        "updated_at": "2026-01-20T09:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000003",
+      "name": "Na Věčnosti",
+      "slug": "na-vecnosti",
+      "type": "restaurant",
+      "address": "Velká Michalská 4, 669 02 Znojmo",
+      "lat": 48.8550,
+      "lng": 16.0478,
+      "phone": "+420 515 222 450",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "menickacz",
+        "updated_at": "2026-01-15T14:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000004",
+      "name": "Restaurace Balkán",
+      "slug": "restaurace-balkan",
+      "type": "restaurant",
+      "address": "Kovářská 14, 669 02 Znojmo",
+      "lat": 48.8545,
+      "lng": 16.0495,
+      "phone": "+420 515 228 100",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "menickacz",
+        "updated_at": "2026-01-10T12:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000005",
+      "name": "Pivnice Znojemský pivovar",
+      "slug": "pivnice-znojemsky-pivovar",
+      "type": "restaurant",
+      "address": "Zelenářská 7, 669 02 Znojmo",
+      "lat": 48.8553,
+      "lng": 16.0500,
+      "phone": "+420 515 261 400",
+      "website": "https://www.znojemskypivo.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:znojemsky-pivovar",
+        "updated_at": "2026-02-01T08:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000006",
+      "name": "Restaurace U Divadla",
+      "slug": "restaurace-u-divadla",
+      "type": "restaurant",
+      "address": "Divadelní náměstí 2, 669 02 Znojmo",
+      "lat": 48.8565,
+      "lng": 16.0475,
+      "phone": "+420 515 222 800",
+      "website": "https://www.udivadlaznojmo.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "owner:jan-vesely",
+        "updated_at": "2026-01-25T11:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000007",
+      "name": "Na Staré poště",
+      "slug": "na-stare-poste",
+      "type": "restaurant",
+      "address": "Jezuitské náměstí 5, 669 02 Znojmo",
+      "lat": 48.8560,
+      "lng": 16.0468,
+      "phone": "+420 515 224 700",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "menickacz",
+        "updated_at": "2026-01-12T16:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000008",
+      "name": "Restaurace U Mouřenína",
+      "slug": "restaurace-u-mourenina",
+      "type": "restaurant",
+      "address": "Dolní Česká 1, 669 02 Znojmo",
+      "lat": 48.8548,
+      "lng": 16.0502,
+      "phone": "+420 515 226 900",
+      "website": "https://www.umourenina.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:petr-mourenin",
+        "updated_at": "2026-01-30T09:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000009",
+      "name": "La Botte",
+      "slug": "la-botte",
+      "type": "restaurant",
+      "address": "Horní náměstí 3, 669 02 Znojmo",
+      "lat": 48.8557,
+      "lng": 16.0488,
+      "phone": "+420 515 225 400",
+      "website": "https://www.labotteznojmo.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:marco-bianchi",
+        "updated_at": "2026-01-28T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000010",
+      "name": "Restaurace Na Vyhlídce",
+      "slug": "restaurace-na-vyhlidce",
+      "type": "restaurant",
+      "address": "Hradní 8, 669 02 Znojmo",
+      "lat": 48.8540,
+      "lng": 16.0460,
+      "phone": "+420 515 229 200",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "ai-verified",
+        "source": "menickacz",
+        "updated_at": "2026-01-18T13:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-2222-4000-8000-000000000001",
+      "name": "Kino Svět Znojmo",
+      "slug": "kino-svet-znojmo",
+      "type": "cinema",
+      "address": "Pontassievská 1, 669 02 Znojmo",
+      "lat": 48.8570,
+      "lng": 16.0510,
+      "phone": "+420 515 224 890",
+      "website": "https://www.kinoznojmo.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "kinoznojmo.cz",
+        "updated_at": "2026-02-06T18:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000001",
+      "name": "Znovín Znojmo",
+      "slug": "znovin-znojmo",
+      "type": "winery",
+      "address": "Šatov 404, 671 22 Šatov",
+      "lat": 48.8020,
+      "lng": 16.0110,
+      "phone": "+420 515 266 611",
+      "website": "https://www.znovin.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:znovin-znojmo",
+        "updated_at": "2026-01-15T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000002",
+      "name": "Vinařství Lahofer",
+      "slug": "vinarstvi-lahofer",
+      "type": "winery",
+      "address": "Brněnská 523, 671 82 Dobšice",
+      "lat": 48.8650,
+      "lng": 16.0720,
+      "phone": "+420 515 275 220",
+      "website": "https://www.lahofer.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:lahofer",
+        "updated_at": "2026-01-20T08:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000003",
+      "name": "Vinné sklepy Lechovice",
+      "slug": "vinne-sklepy-lechovice",
+      "type": "winery",
+      "address": "Lechovice 1, 671 63 Lechovice",
+      "lat": 48.8780,
+      "lng": 16.1020,
+      "phone": "+420 515 231 500",
+      "website": "https://www.vinnesklepylecho.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-10T11:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000004",
+      "name": "Víno Hort",
+      "slug": "vino-hort",
+      "type": "winery",
+      "address": "Znojemská 416, 669 02 Dobšice",
+      "lat": 48.8620,
+      "lng": 16.0650,
+      "phone": "+420 515 234 100",
+      "website": "https://www.vinohort.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:jaroslav-hort",
+        "updated_at": "2026-01-22T09:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000005",
+      "name": "Vinařství Kořínek",
+      "slug": "vinarstvi-korinek",
+      "type": "winery",
+      "address": "Chvalovice 89, 669 02 Znojmo",
+      "lat": 48.8380,
+      "lng": 16.0260,
+      "phone": "+420 606 712 345",
+      "website": "https://www.vinarstvikorinek.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "wineofczechrepublic.cz",
+        "updated_at": "2026-01-18T14:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000006",
+      "name": "Víno Nešetřil",
+      "slug": "vino-nesetril",
+      "type": "winery",
+      "address": "Hnanice 182, 669 02 Znojmo",
+      "lat": 48.8100,
+      "lng": 15.9880,
+      "phone": "+420 605 432 100",
+      "website": "https://www.vinonesetril.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "ai-verified",
+        "source": "wineofczechrepublic.cz",
+        "updated_at": "2026-01-05T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000007",
+      "name": "Chateau Šobes",
+      "slug": "chateau-sobes",
+      "type": "winery",
+      "address": "Šobes, 671 28 Podmolí",
+      "lat": 48.8250,
+      "lng": 15.9720,
+      "phone": "+420 515 266 700",
+      "website": "https://www.sobes.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:znovin-znojmo",
+        "updated_at": "2026-01-15T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000008",
+      "name": "Dobšický mlýn",
+      "slug": "dobsicky-mlyn",
+      "type": "winery",
+      "address": "Znojemská 248, 671 82 Dobšice",
+      "lat": 48.8630,
+      "lng": 16.0680,
+      "phone": "+420 515 233 400",
+      "website": "https://www.dobsickymlyn.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-25T12:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-4444-4000-8000-000000000001",
+      "name": "Rotunda sv. Kateřiny",
+      "slug": "rotunda-sv-kateriny",
+      "type": "attraction",
+      "address": "Hradní 10, 669 02 Znojmo",
+      "lat": 48.8535,
+      "lng": 16.0455,
+      "phone": "+420 515 282 211",
+      "website": "https://www.znojmuz.cz/rotunda",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmuz.cz",
+        "updated_at": "2026-01-10T08:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-4444-4000-8000-000000000002",
+      "name": "Znojemský hrad",
+      "slug": "znojemsky-hrad",
+      "type": "attraction",
+      "address": "Hradní 84/1, 669 02 Znojmo",
+      "lat": 48.8538,
+      "lng": 16.0450,
+      "phone": "+420 515 282 211",
+      "website": "https://www.znojmuz.cz/hrad",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmuz.cz",
+        "updated_at": "2026-01-10T08:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-4444-4000-8000-000000000003",
+      "name": "Loucký klášter",
+      "slug": "loucky-klaster",
+      "type": "attraction",
+      "address": "Loucká 1, 669 02 Znojmo",
+      "lat": 48.8590,
+      "lng": 16.0560,
+      "phone": "+420 515 282 211",
+      "website": "https://www.louckyklaster.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-08T09:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-4444-4000-8000-000000000004",
+      "name": "Podzemí Znojmo",
+      "slug": "podzemi-znojmo",
+      "type": "attraction",
+      "address": "Slepičí trh 2, 669 02 Znojmo",
+      "lat": 48.8555,
+      "lng": 16.0490,
+      "phone": "+420 515 221 342",
+      "website": "https://www.znojmocity.cz/podzemi",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-15T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-5555-4000-8000-000000000001",
+      "name": "Hotel Prestige Znojmo",
+      "slug": "hotel-prestige-znojmo",
+      "type": "accommodation",
+      "address": "Pražská 100, 669 02 Znojmo",
+      "lat": 48.8575,
+      "lng": 16.0520,
+      "phone": "+420 515 224 500",
+      "website": "https://www.hotelprestige.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "booking.com",
+        "updated_at": "2026-01-20T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-5555-4000-8000-000000000002",
+      "name": "Penzion Kaplanka",
+      "slug": "penzion-kaplanka",
+      "type": "accommodation",
+      "address": "Velká Michalská 12, 669 02 Znojmo",
+      "lat": 48.8552,
+      "lng": 16.0480,
+      "phone": "+420 515 220 100",
+      "website": "https://www.kaplanka.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "booking.com",
+        "updated_at": "2026-01-22T11:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-6666-4000-8000-000000000001",
+      "name": "Sportovní hala Znojmo",
+      "slug": "sportovni-hala-znojmo",
+      "type": "sport",
+      "address": "Dvořákova 19, 669 02 Znojmo",
+      "lat": 48.8580,
+      "lng": 16.0545,
+      "phone": "+420 515 216 300",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-05T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-6666-4000-8000-000000000002",
+      "name": "Koupaliště Louka Znojmo",
+      "slug": "koupaliste-louka-znojmo",
+      "type": "sport",
+      "address": "Loucká 126, 669 02 Znojmo",
+      "lat": 48.8600,
+      "lng": 16.0570,
+      "phone": "+420 515 216 500",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-05T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-7777-4000-8000-000000000001",
+      "name": "OC Dyje Znojmo",
+      "slug": "oc-dyje-znojmo",
+      "type": "shopping",
+      "address": "Mariánské náměstí 6, 669 02 Znojmo",
+      "lat": 48.8568,
+      "lng": 16.0498,
+      "phone": "+420 515 260 100",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-03T08:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-8888-4000-8000-000000000001",
+      "name": "Kavárna Schönberg",
+      "slug": "kavarna-schonberg",
+      "type": "cafe",
+      "address": "Horní náměstí 5, 669 02 Znojmo",
+      "lat": 48.8559,
+      "lng": 16.0489,
+      "phone": "+420 515 223 300",
+      "website": "https://www.kavarnaschonberg.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:kavarna-schonberg",
+        "updated_at": "2026-02-01T08:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-8888-4000-8000-000000000002",
+      "name": "Café Znojmo",
+      "slug": "cafe-znojmo",
+      "type": "cafe",
+      "address": "Masarykovo náměstí 11, 669 02 Znojmo",
+      "lat": 48.8561,
+      "lng": 16.0484,
+      "phone": "+420 515 221 800",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-20T10:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-8888-4000-8000-000000000003",
+      "name": "Kavárna U Hradeb",
+      "slug": "kavarna-u-hradeb",
+      "type": "cafe",
+      "address": "Hradní 2, 669 02 Znojmo",
+      "lat": 48.8537,
+      "lng": 16.0458,
+      "phone": "+420 606 112 233",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-18T11:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-9999-4000-8000-000000000001",
+      "name": "Vinný bar Na Víčku",
+      "slug": "vinny-bar-na-vicku",
+      "type": "bar",
+      "address": "Obroková 10, 669 02 Znojmo",
+      "lat": 48.8554,
+      "lng": 16.0491,
+      "phone": "+420 515 225 600",
+      "website": "https://www.navicku.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:vinny-bar-navicku",
+        "updated_at": "2026-01-28T12:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-9999-4000-8000-000000000002",
+      "name": "Rock Bar Podzemí",
+      "slug": "rock-bar-podzemi",
+      "type": "bar",
+      "address": "Dolní Česká 8, 669 02 Znojmo",
+      "lat": 48.8547,
+      "lng": 16.0500,
+      "phone": "+420 605 998 877",
+      "website": null,
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-22T14:00:00Z"
+      }
+    },
+    {
+      "id": "a1b2c3d4-aaaa-4000-8000-000000000001",
+      "name": "Městské divadlo Znojmo",
+      "slug": "mestske-divadlo-znojmo",
+      "type": "theatre",
+      "address": "Divadelní náměstí 1, 669 02 Znojmo",
+      "lat": 48.8564,
+      "lng": 16.0473,
+      "phone": "+420 515 224 890",
+      "website": "https://www.divadloznojmo.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "divadloznojmo.cz",
+        "updated_at": "2026-02-05T10:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000001",
+      "name": "Městský úřad Znojmo",
+      "slug": "mestsky-urad-znojmo",
+      "type": "office",
+      "address": "Obroková 1/12, 669 22 Znojmo",
+      "lat": 48.8556,
+      "lng": 16.0488,
+      "phone": "+420 515 216 111",
+      "website": "https://www.znojmocity.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-02-06T08:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000002",
+      "name": "Finanční úřad pro Jihomoravský kraj — Územní pracoviště Znojmo",
+      "slug": "financni-urad-znojmo",
+      "type": "office",
+      "address": "náměstí Svobody 8, 669 02 Znojmo",
+      "lat": 48.8563,
+      "lng": 16.0479,
+      "phone": "+420 515 216 411",
+      "website": "https://www.financnisprava.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "financnisprava.cz",
+        "updated_at": "2026-01-20T09:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000003",
+      "name": "Katastrální úřad pro Jihomoravský kraj — Katastrální pracoviště Znojmo",
+      "slug": "katastralni-urad-znojmo",
+      "type": "office",
+      "address": "Pontassievská 6, 669 02 Znojmo",
+      "lat": 48.8569,
+      "lng": 16.0507,
+      "phone": "+420 515 255 111",
+      "website": "https://www.cuzk.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "cuzk.cz",
+        "updated_at": "2026-01-18T10:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000004",
+      "name": "Úřad práce ČR — kontaktní pracoviště Znojmo",
+      "slug": "urad-prace-znojmo",
+      "type": "office",
+      "address": "náměstí Svobody 8, 669 02 Znojmo",
+      "lat": 48.8564,
+      "lng": 16.0481,
+      "phone": "+420 950 175 111",
+      "website": "https://www.uradprace.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "uradprace.cz",
+        "updated_at": "2026-01-22T08:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000005",
+      "name": "Česká správa sociálního zabezpečení — pracoviště Znojmo",
+      "slug": "cssz-znojmo",
+      "type": "office",
+      "address": "Dvořákova 21, 669 02 Znojmo",
+      "lat": 48.8578,
+      "lng": 16.0543,
+      "phone": "+420 515 209 111",
+      "website": "https://www.cssz.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "cssz.cz",
+        "updated_at": "2026-01-25T09:00:00Z"
+      }
+    },
+    {
+      "id": "e5f6a7b8-dd01-4000-8000-000000000006",
+      "name": "Krajská hygienická stanice Jihomoravského kraje — pracoviště Znojmo",
+      "slug": "khs-znojmo",
+      "type": "office",
+      "address": "Pražská 69, 669 02 Znojmo",
+      "lat": 48.8576,
+      "lng": 16.0528,
+      "phone": "+420 515 216 511",
+      "website": "https://www.khsbrno.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "khsbrno.cz",
+        "updated_at": "2026-01-15T11:00:00Z"
+      }
+    }
+  ],
+  "total": 41,
+  "limit": 50,
+  "offset": 0
+}

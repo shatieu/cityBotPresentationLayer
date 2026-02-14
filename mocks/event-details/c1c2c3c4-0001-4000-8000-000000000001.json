@@ -1,0 +1,33 @@
+{
+  "id": "c1c2c3c4-0001-4000-8000-000000000001",
+  "title": "Znojemské historické vinobraní 2026",
+  "date_start": "2026-09-11T10:00:00Z",
+  "date_end": "2026-09-13T22:00:00Z",
+  "category": "festivals",
+  "place": {
+    "id": "a1b2c3d4-4444-4000-8000-000000000002",
+    "name": "Znojemský hrad",
+    "slug": "znojemsky-hrad",
+    "type": "attraction",
+    "address": "Hradní 84/1, 669 02 Znojmo",
+    "lat": 48.8538,
+    "lng": 16.0450,
+    "phone": "+420 515 282 211",
+    "website": "https://www.znojmuz.cz/hrad",
+    "thumbnail_url": null,
+    "provenance": {
+      "trust_tier": "human-verified",
+      "source": "znojmuz.cz",
+      "updated_at": "2026-01-10T08:00:00Z"
+    }
+  },
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "znojemske-vinobrani.cz",
+    "updated_at": "2026-01-20T10:00:00Z"
+  },
+  "description": "Znojemské historické vinobraní je největší kulturní a společenská akce ve Znojmě a jedna z nejvýznamnějších vinařských slavností v České republice. Festival se koná tradičně druhý víkend v září a připomíná středověkou tradici vinobraní. Třídenní program zahrnuje historický průvod městem v dobových kostýmech, rytířský turnaj na Horním náměstí, korunovaci krále vinobraní, ochutnávku vín znojemské vinařské podoblasti, koncerty populárních i folklorních skupin a bohatý doprovodný program pro celou rodinu. Akce se koná v areálu Znojemského hradu a v celém historickém centru města. Očekávaná návštěvnost přesahuje 50 000 lidí.",
+  "ticket_url": "https://www.znojemske-vinobrani.cz/vstupenky",
+  "photos": []
+}

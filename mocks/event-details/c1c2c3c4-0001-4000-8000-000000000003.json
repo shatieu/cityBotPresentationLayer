@@ -1,0 +1,33 @@
+{
+  "id": "c1c2c3c4-0001-4000-8000-000000000003",
+  "title": "Znojmo Food Festival",
+  "date_start": "2026-05-22T10:00:00Z",
+  "date_end": "2026-05-24T20:00:00Z",
+  "category": "festivals",
+  "place": {
+    "id": "a1b2c3d4-4444-4000-8000-000000000003",
+    "name": "Loucký klášter",
+    "slug": "loucky-klaster",
+    "type": "attraction",
+    "address": "Loucká 1, 669 02 Znojmo",
+    "lat": 48.8590,
+    "lng": 16.0560,
+    "phone": "+420 515 282 211",
+    "website": "https://www.louckyklaster.cz",
+    "thumbnail_url": null,
+    "provenance": {
+      "trust_tier": "human-verified",
+      "source": "znojmocity.cz",
+      "updated_at": "2026-01-08T09:00:00Z"
+    }
+  },
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "ai-verified",
+    "source": "znojmocity.cz",
+    "updated_at": "2026-02-01T14:00:00Z"
+  },
+  "description": "Znojmo Food Festival je třídenní gastronomický festival v nádherném prostředí Louckého kláštera. Na festivalu se představí přes 30 restaurací, street food stánků a lokálních výrobců z celého Znojemska. Návštěvníci mohou ochutnat tradiční moravskou kuchyni i moderní gastronomii, lokální vína a řemeslná piva. Program zahrnuje ukázky vaření s předními šéfkuchaři, workshopy fermentace a pečení chleba, dětský kulinářský koutek a živou hudbu. Vstupné zahrnuje degustační skleničku a 3 ochutnávkové kupony.",
+  "ticket_url": "https://www.znojmofoodfest.cz/vstupenky",
+  "photos": []
+}

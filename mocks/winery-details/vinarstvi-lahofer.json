@@ -1,0 +1,60 @@
+{
+  "id": "a1b2c3d4-3333-4000-8000-000000000002",
+  "name": "Vinařství Lahofer",
+  "slug": "vinarstvi-lahofer",
+  "type": "winery",
+  "address": "Brněnská 523, 671 82 Dobšice",
+  "lat": 48.8650,
+  "lng": 16.0720,
+  "phone": "+420 515 275 220",
+  "website": "https://www.lahofer.cz",
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "owner:lahofer",
+    "updated_at": "2026-01-20T08:00:00Z"
+  },
+  "wine_types": ["Ryzlink vlašský", "Chardonnay", "Pinot Noir", "Merlot", "Rulandské bílé", "Sauvignon Blanc"],
+  "has_tastings": true,
+  "open_today": true,
+  "description": "Vinařství Lahofer je moderní vinařský podnik v Dobšicích u Znojma, který kombinuje tradiční moravské vinařství s nejnovějšími technologiemi. Vinařství obhospodařuje vinice v nejlepších polohách znojemské podoblasti a specializuje se na terroir vína odrůd Ryzlink vlašský, Chardonnay a Pinot Noir. Architektonicky pozoruhodná budova vinařství od studia Chybík + Krištof získala řadu mezinárodních architektonických cen. Návštěvníci mohou využít moderní degustační sál, vinotéku i restauraci s výhledem na vinice.",
+  "tasting_schedule": {
+    "regular_hours": {
+      "monday": "zavřeno",
+      "tuesday": "10:00–18:00",
+      "wednesday": "10:00–18:00",
+      "thursday": "10:00–18:00",
+      "friday": "10:00–20:00",
+      "saturday": "10:00–20:00",
+      "sunday": "10:00–17:00"
+    },
+    "seasonal_note": "Řízené degustace pro skupiny 6–30 osob po předchozí rezervaci. Cena od 450 Kč/os. V letních měsících možnost degustace na terase s výhledem na vinice.",
+    "next_event": {
+      "title": "Zimní degustace — Vinařství Lahofer",
+      "date": "2026-02-15T15:00:00Z",
+      "description": "Tematická degustace zaměřená na srovnání ročníků 2023 a 2024. 10 vzorků vína s komentářem sommeliera."
+    },
+    "provenance": {
+      "trust_tier": "owner",
+      "source": "owner:lahofer",
+      "updated_at": "2026-02-01T09:00:00Z"
+    }
+  },
+  "photos": [],
+  "upcoming_events": [
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000008",
+      "title": "Zimní degustace — Vinařství Lahofer",
+      "date_start": "2026-02-15T15:00:00Z",
+      "date_end": "2026-02-15T19:00:00Z",
+      "category": "wine"
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000011",
+      "title": "Jarní otevřené sklepy — Znojemská vinařská podoblast",
+      "date_start": "2026-04-18T10:00:00Z",
+      "date_end": "2026-04-19T18:00:00Z",
+      "category": "wine"
+    }
+  ]
+}

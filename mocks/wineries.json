@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000001",
+      "name": "Znovín Znojmo",
+      "slug": "znovin-znojmo",
+      "type": "winery",
+      "address": "Šatov 404, 671 22 Šatov",
+      "lat": 48.8020,
+      "lng": 16.0110,
+      "phone": "+420 515 266 611",
+      "website": "https://www.znovin.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:znovin-znojmo",
+        "updated_at": "2026-01-15T10:00:00Z"
+      },
+      "wine_types": ["Veltlínské zelené", "Sauvignon", "Ryzlink rýnský", "Rulandské šedé", "Pálava", "Frankovka", "Zweigeltrebe"],
+      "has_tastings": true,
+      "open_today": true
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000002",
+      "name": "Vinařství Lahofer",
+      "slug": "vinarstvi-lahofer",
+      "type": "winery",
+      "address": "Brněnská 523, 671 82 Dobšice",
+      "lat": 48.8650,
+      "lng": 16.0720,
+      "phone": "+420 515 275 220",
+      "website": "https://www.lahofer.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:lahofer",
+        "updated_at": "2026-01-20T08:00:00Z"
+      },
+      "wine_types": ["Ryzlink vlašský", "Chardonnay", "Pinot Noir", "Merlot", "Rulandské bílé", "Sauvignon Blanc"],
+      "has_tastings": true,
+      "open_today": true
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000003",
+      "name": "Vinné sklepy Lechovice",
+      "slug": "vinne-sklepy-lechovice",
+      "type": "winery",
+      "address": "Lechovice 1, 671 63 Lechovice",
+      "lat": 48.8780,
+      "lng": 16.1020,
+      "phone": "+420 515 231 500",
+      "website": "https://www.vinnesklepylecho.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-10T11:00:00Z"
+      },
+      "wine_types": ["Müller Thurgau", "Veltlínské zelené", "Frankovka", "Svatovavřinecké"],
+      "has_tastings": true,
+      "open_today": false
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000004",
+      "name": "Víno Hort",
+      "slug": "vino-hort",
+      "type": "winery",
+      "address": "Znojemská 416, 669 02 Dobšice",
+      "lat": 48.8620,
+      "lng": 16.0650,
+      "phone": "+420 515 234 100",
+      "website": "https://www.vinohort.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:jaroslav-hort",
+        "updated_at": "2026-01-22T09:00:00Z"
+      },
+      "wine_types": ["Sauvignon", "Ryzlink rýnský", "Pálava", "Rulandské šedé", "Hibernal"],
+      "has_tastings": true,
+      "open_today": true
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000005",
+      "name": "Vinařství Kořínek",
+      "slug": "vinarstvi-korinek",
+      "type": "winery",
+      "address": "Chvalovice 89, 669 02 Znojmo",
+      "lat": 48.8380,
+      "lng": 16.0260,
+      "phone": "+420 606 712 345",
+      "website": "https://www.vinarstvikorinek.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "wineofczechrepublic.cz",
+        "updated_at": "2026-01-18T14:00:00Z"
+      },
+      "wine_types": ["Veltlínské zelené", "Sauvignon", "Ryzlink rýnský", "Rulandské modré"],
+      "has_tastings": true,
+      "open_today": false
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000006",
+      "name": "Víno Nešetřil",
+      "slug": "vino-nesetril",
+      "type": "winery",
+      "address": "Hnanice 182, 669 02 Znojmo",
+      "lat": 48.8100,
+      "lng": 15.9880,
+      "phone": "+420 605 432 100",
+      "website": "https://www.vinonesetril.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "ai-verified",
+        "source": "wineofczechrepublic.cz",
+        "updated_at": "2026-01-05T10:00:00Z"
+      },
+      "wine_types": ["Ryzlink rýnský", "Veltlínské zelené", "Chardonnay", "Frankovka"],
+      "has_tastings": false,
+      "open_today": false
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000007",
+      "name": "Chateau Šobes",
+      "slug": "chateau-sobes",
+      "type": "winery",
+      "address": "Šobes, 671 28 Podmolí",
+      "lat": 48.8250,
+      "lng": 15.9720,
+      "phone": "+420 515 266 700",
+      "website": "https://www.sobes.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:znovin-znojmo",
+        "updated_at": "2026-01-15T10:00:00Z"
+      },
+      "wine_types": ["Ryzlink rýnský", "Sauvignon", "Rulandské šedé", "Veltlínské zelené"],
+      "has_tastings": true,
+      "open_today": true
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000008",
+      "name": "Dobšický mlýn",
+      "slug": "dobsicky-mlyn",
+      "type": "winery",
+      "address": "Znojemská 248, 671 82 Dobšice",
+      "lat": 48.8630,
+      "lng": 16.0680,
+      "phone": "+420 515 233 400",
+      "website": "https://www.dobsickymlyn.cz",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "znojmocity.cz",
+        "updated_at": "2026-01-25T12:00:00Z"
+      },
+      "wine_types": ["Veltlínské zelené", "Müller Thurgau", "Rulandské bílé", "Zweigeltrebe", "Svatovavřinecké"],
+      "has_tastings": true,
+      "open_today": true
+    }
+  ],
+  "total": 8
+}

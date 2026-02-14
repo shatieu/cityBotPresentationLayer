@@ -1,0 +1,52 @@
+{
+  "id": "a1b2c3d4-1111-4000-8000-000000000002",
+  "name": "Restaurace Himalaya",
+  "slug": "restaurace-himalaya",
+  "type": "restaurant",
+  "address": "Masarykovo náměstí 22, 669 02 Znojmo",
+  "lat": 48.8562,
+  "lng": 16.0485,
+  "phone": "+420 515 226 300",
+  "website": "https://www.himalayaznojmo.cz",
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "owner:raj-kumar",
+    "updated_at": "2026-01-20T09:00:00Z"
+  },
+  "description": "Autentická indická a nepálská restaurace v centru Znojma. Himalaya nabízí široký výběr pokrmů z indického subkontinentu — od tandoori specialit přes aromatická curry až po vegetariánské a veganské varianty. Veškerá jídla jsou připravována z čerstvých surovin a tradičního koření dováženého přímo z Nepálu.",
+  "opening_hours": {
+    "monday": "11:00–22:00",
+    "tuesday": "11:00–22:00",
+    "wednesday": "11:00–22:00",
+    "thursday": "11:00–22:00",
+    "friday": "11:00–23:00",
+    "saturday": "11:30–23:00",
+    "sunday": "11:30–21:00"
+  },
+  "photos": [],
+  "links": {
+    "facebook": "https://www.facebook.com/himalayaznojmo",
+    "google_maps": "https://maps.google.com/?cid=12345678901234568"
+  },
+  "today_menu": {
+    "place_id": "a1b2c3d4-1111-4000-8000-000000000002",
+    "date": "2026-02-07",
+    "items": [
+      { "name": "Nepálská polévka Dal", "price": 55, "category": "soup" },
+      { "name": "Chicken Tikka Masala s rýží basmati", "price": 189, "category": "main" },
+      { "name": "Paneer Butter Masala (vegetariánské)", "price": 179, "category": "main" },
+      { "name": "Lamb Biryani", "price": 219, "category": "main" },
+      { "name": "Mango Lassi", "price": 65, "category": "drink" },
+      { "name": "Gulab Jamun", "price": 69, "category": "dessert" }
+    ],
+    "provenance": {
+      "trust_tier": "ai-verified",
+      "source": "menickacz",
+      "updated_at": "2026-02-07T07:00:00Z"
+    }
+  },
+  "showtimes": null,
+  "tasting_schedule": null,
+  "upcoming_events": []
+}

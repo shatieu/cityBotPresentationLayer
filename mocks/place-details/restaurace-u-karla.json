@@ -1,0 +1,53 @@
+{
+  "id": "a1b2c3d4-1111-4000-8000-000000000001",
+  "name": "U Karla",
+  "slug": "restaurace-u-karla",
+  "type": "restaurant",
+  "address": "Horní náměstí 10, 669 02 Znojmo",
+  "lat": 48.8558,
+  "lng": 16.0492,
+  "phone": "+420 515 224 100",
+  "website": "https://www.restauraceukarla.cz",
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "owner:karel-novak",
+    "updated_at": "2026-02-01T10:00:00Z"
+  },
+  "description": "Tradiční česká restaurace v samém srdci Znojma na Horním náměstí. U Karla nabízí domácí kuchyni z čerstvých surovin od místních dodavatelů. Specialitou jsou znojemské omáčky, moravská vína a klasické české pokrmy připravované podle tradičních receptů. Restaurace disponuje letní zahrádkou s výhledem na náměstí.",
+  "opening_hours": {
+    "monday": "11:00–22:00",
+    "tuesday": "11:00–22:00",
+    "wednesday": "11:00–22:00",
+    "thursday": "11:00–22:00",
+    "friday": "11:00–23:00",
+    "saturday": "11:00–23:00",
+    "sunday": "11:00–21:00"
+  },
+  "photos": [],
+  "links": {
+    "facebook": "https://www.facebook.com/restauraceukarla",
+    "instagram": "https://www.instagram.com/ukarla_znojmo",
+    "google_maps": "https://maps.google.com/?cid=12345678901234567"
+  },
+  "today_menu": {
+    "place_id": "a1b2c3d4-1111-4000-8000-000000000001",
+    "date": "2026-02-07",
+    "items": [
+      { "name": "Kulajda s vejcem", "price": 49, "category": "soup" },
+      { "name": "Česnečka s krutonky", "price": 45, "category": "soup" },
+      { "name": "Svíčková na smetaně s houskovým knedlíkem", "price": 169, "category": "main" },
+      { "name": "Kuřecí řízek s bramborovým salátem", "price": 159, "category": "main" },
+      { "name": "Grilovaný vepřový steak s hranolky", "price": 189, "category": "main" },
+      { "name": "Palačinky s tvarohem a lesním ovocem", "price": 79, "category": "dessert" }
+    ],
+    "provenance": {
+      "trust_tier": "ai-verified",
+      "source": "menickacz",
+      "updated_at": "2026-02-07T06:30:00Z"
+    }
+  },
+  "showtimes": null,
+  "tasting_schedule": null,
+  "upcoming_events": []
+}

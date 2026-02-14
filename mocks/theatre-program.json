@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": "d1e2f3a4-aa01-4000-8000-000000000001",
+      "title": "Naši furianti",
+      "description": "Klasická česká komedie Ladislava Stroupežnického o lidské ješitnosti a marnivosti v malém městečku. Inscenace v režii Petra Novotného přináší nadčasový humor i hořkou satiru venkovských poměrů.",
+      "date_time": "2026-02-14T19:00:00+01:00",
+      "venue": "Městské divadlo Znojmo",
+      "duration_minutes": 135,
+      "genre": "komedie",
+      "ticket_url": "https://www.divadloznojmo.cz/program/nasi-furianti",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "divadloznojmo.cz",
+        "updated_at": "2026-02-05T10:00:00Z"
+      }
+    },
+    {
+      "id": "d1e2f3a4-aa01-4000-8000-000000000002",
+      "title": "Tři sestry",
+      "description": "Čechovovské drama o třech sestrách toužících po smysluplném životě. Hostující soubor Jihomoravského divadla přiveze svou oceňovanou inscenaci plnou melancholie a naděje.",
+      "date_time": "2026-02-28T19:30:00+01:00",
+      "venue": "Městské divadlo Znojmo",
+      "duration_minutes": 150,
+      "genre": "drama",
+      "ticket_url": "https://www.divadloznojmo.cz/program/tri-sestry",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "divadloznojmo.cz",
+        "updated_at": "2026-02-03T14:00:00Z"
+      }
+    },
+    {
+      "id": "d1e2f3a4-aa01-4000-8000-000000000003",
+      "title": "Kytice — Erben v tanci a hudbě",
+      "description": "Unikátní multižánrové představení propojující balady Karla Jaromíra Erbena s moderním tancem a živou hudbou. Večer plný mystiky a emocí ve Znojemské besedě.",
+      "date_time": "2026-03-14T18:00:00+01:00",
+      "venue": "Znojemská beseda",
+      "duration_minutes": 105,
+      "genre": "muzikál",
+      "ticket_url": "https://www.znojemska-beseda.cz/program/kytice",
+      "thumbnail_url": null,
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "znojemska-beseda.cz",
+        "updated_at": "2026-02-01T09:00:00Z"
+      }
+    }
+  ],
+  "total": 3
+}

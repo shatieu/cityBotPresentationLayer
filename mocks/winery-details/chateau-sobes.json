@@ -1,0 +1,53 @@
+{
+  "id": "a1b2c3d4-3333-4000-8000-000000000007",
+  "name": "Chateau Šobes",
+  "slug": "chateau-sobes",
+  "type": "winery",
+  "address": "Šobes, 671 28 Podmolí",
+  "lat": 48.8250,
+  "lng": 15.9720,
+  "phone": "+420 515 266 700",
+  "website": "https://www.sobes.cz",
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "owner:znovin-znojmo",
+    "updated_at": "2026-01-15T10:00:00Z"
+  },
+  "wine_types": ["Ryzlink rýnský", "Sauvignon", "Rulandské šedé", "Veltlínské zelené"],
+  "has_tastings": true,
+  "open_today": true,
+  "description": "Vinice Šobes je jednou z nejstarších a nejproslulejších viničních poloh ve střední Evropě, často označovaná jako jedna z deseti nejlepších viničních poloh na světě. Nachází se na výjimečném skalním ostrohu v meandru řeky Dyje v Národním parku Podyjí. Vinice má unikátní mikroklima díky jižní expozici a žulovému podloží, které akumuluje teplo. Hrozny odrůd Ryzlink rýnský, Sauvignon a Veltlínské zelené zde dosahují mimořádné kvality. Chateau Šobes provozuje společnost Znovín Znojmo a nabízí degustace přímo na vinici.",
+  "tasting_schedule": {
+    "regular_hours": {
+      "monday": "zavřeno",
+      "tuesday": "zavřeno",
+      "wednesday": "zavřeno",
+      "thursday": "zavřeno",
+      "friday": "11:00–17:00",
+      "saturday": "10:00–18:00",
+      "sunday": "10:00–17:00"
+    },
+    "seasonal_note": "Vinice Šobes je otevřena pro návštěvníky od dubna do října. V zimních měsících je přístup omezen. Skupinové degustace na vinici je nutné rezervovat předem na webu Znovínu.",
+    "next_event": {
+      "title": "Jarní otevřené sklepy — Znojemská vinařská podoblast",
+      "date": "2026-04-18T10:00:00Z",
+      "description": "Slavnostní zahájení sezóny na vinici Šobes s komentovanou prohlídkou vinice a degustací nových vín."
+    },
+    "provenance": {
+      "trust_tier": "owner",
+      "source": "owner:znovin-znojmo",
+      "updated_at": "2026-01-15T10:00:00Z"
+    }
+  },
+  "photos": [],
+  "upcoming_events": [
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000011",
+      "title": "Jarní otevřené sklepy — Znojemská vinařská podoblast",
+      "date_start": "2026-04-18T10:00:00Z",
+      "date_end": "2026-04-19T18:00:00Z",
+      "category": "wine"
+    }
+  ]
+}

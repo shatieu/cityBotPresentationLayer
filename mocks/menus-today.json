@@ -1,0 +1,339 @@
+{
+  "data": [
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000001",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Kulajda s vejcem", "price": 49, "category": "soup" },
+        { "name": "Česnečka s krutonky", "price": 45, "category": "soup" },
+        { "name": "Svíčková na smetaně s houskovým knedlíkem", "price": 169, "category": "main" },
+        { "name": "Kuřecí řízek s bramborovým salátem", "price": 159, "category": "main" },
+        { "name": "Grilovaný vepřový steak s hranolky", "price": 189, "category": "main" },
+        { "name": "Palačinky s tvarohem a lesním ovocem", "price": 79, "category": "dessert" }
+      ],
+      "provenance": {
+        "trust_tier": "ai-verified",
+        "source": "menickacz",
+        "updated_at": "2026-02-07T06:30:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000001",
+        "name": "U Karla",
+        "slug": "restaurace-u-karla",
+        "type": "restaurant",
+        "address": "Horní náměstí 10, 669 02 Znojmo",
+        "lat": 48.8558,
+        "lng": 16.0492,
+        "phone": "+420 515 224 100",
+        "website": "https://www.restauraceukarla.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "owner",
+          "source": "owner:karel-novak",
+          "updated_at": "2026-02-01T10:00:00Z"
+        }
+      }
+    },
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000002",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Nepálská polévka Dal", "price": 55, "category": "soup" },
+        { "name": "Chicken Tikka Masala s rýží basmati", "price": 189, "category": "main" },
+        { "name": "Paneer Butter Masala (vegetariánské)", "price": 179, "category": "main" },
+        { "name": "Lamb Biryani", "price": 219, "category": "main" },
+        { "name": "Mango Lassi", "price": 65, "category": "drink" },
+        { "name": "Gulab Jamun", "price": 69, "category": "dessert" }
+      ],
+      "provenance": {
+        "trust_tier": "ai-verified",
+        "source": "menickacz",
+        "updated_at": "2026-02-07T07:00:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000002",
+        "name": "Restaurace Himalaya",
+        "slug": "restaurace-himalaya",
+        "type": "restaurant",
+        "address": "Masarykovo náměstí 22, 669 02 Znojmo",
+        "lat": 48.8562,
+        "lng": 16.0485,
+        "phone": "+420 515 226 300",
+        "website": "https://www.himalayaznojmo.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "owner",
+          "source": "owner:raj-kumar",
+          "updated_at": "2026-01-20T09:00:00Z"
+        }
+      }
+    },
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000003",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Hovězí vývar s nudlemi", "price": 45, "category": "soup" },
+        { "name": "Moravský vrabec s knedlíkem a zelím", "price": 169, "category": "main" },
+        { "name": "Pečená kachna s červeným zelím", "price": 199, "category": "main" },
+        { "name": "Smažený sýr s hranolky a tatarskou omáčkou", "price": 149, "category": "main" },
+        { "name": "Jablečný štrúdl se zmrzlinou", "price": 75, "category": "dessert" }
+      ],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "menickacz",
+        "updated_at": "2026-02-07T06:45:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000003",
+        "name": "Na Věčnosti",
+        "slug": "na-vecnosti",
+        "type": "restaurant",
+        "address": "Velká Michalská 4, 669 02 Znojmo",
+        "lat": 48.8550,
+        "lng": 16.0478,
+        "phone": "+420 515 222 450",
+        "website": null,
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "human-verified",
+          "source": "menickacz",
+          "updated_at": "2026-01-15T14:00:00Z"
+        }
+      }
+    },
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000004",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Čočková polévka", "price": 49, "category": "soup" },
+        { "name": "Ćevapčići s ajvarem a pitou", "price": 179, "category": "main" },
+        { "name": "Pljeskavice se srbským salátem", "price": 189, "category": "main" },
+        { "name": "Balkánský gril mix pro dva", "price": 399, "category": "main" },
+        { "name": "Baklava", "price": 65, "category": "dessert" },
+        { "name": "Turecká káva", "price": 49, "category": "drink" }
+      ],
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "menickacz",
+        "updated_at": "2026-02-07T07:15:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000004",
+        "name": "Restaurace Balkán",
+        "slug": "restaurace-balkan",
+        "type": "restaurant",
+        "address": "Kovářská 14, 669 02 Znojmo",
+        "lat": 48.8545,
+        "lng": 16.0495,
+        "phone": "+420 515 228 100",
+        "website": null,
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "auto-scraped",
+          "source": "menickacz",
+          "updated_at": "2026-01-10T12:00:00Z"
+        }
+      }
+    },
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000005",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Pivní polévka se sýrem", "price": 55, "category": "soup" },
+        { "name": "Vepřové koleno pečené na černém pivu", "price": 219, "category": "main" },
+        { "name": "Znojemský guláš s knedlíkem", "price": 159, "category": "main" },
+        { "name": "Pivní sýr s cibulí a chlebem", "price": 89, "category": "other" },
+        { "name": "Znojemské pivo 0.5l", "price": 45, "category": "drink" }
+      ],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:znojemsky-pivovar",
+        "updated_at": "2026-02-07T08:00:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000005",
+        "name": "Pivnice Znojemský pivovar",
+        "slug": "pivnice-znojemsky-pivovar",
+        "type": "restaurant",
+        "address": "Zelenářská 7, 669 02 Znojmo",
+        "lat": 48.8553,
+        "lng": 16.0500,
+        "phone": "+420 515 261 400",
+        "website": "https://www.znojemskypivo.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "owner",
+          "source": "owner:znojemsky-pivovar",
+          "updated_at": "2026-02-01T08:00:00Z"
+        }
+      }
+    },
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000006",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Bramborová polévka s houbami", "price": 49, "category": "soup" },
+        { "name": "Kuřecí prsa na grilu s bylinkovou omáčkou", "price": 175, "category": "main" },
+        { "name": "Telecí medailonky s restovanou zeleninou", "price": 209, "category": "main" },
+        { "name": "Losos na másle s bramborovým pyré", "price": 199, "category": "main" },
+        { "name": "Panna cotta s malinovou omáčkou", "price": 85, "category": "dessert" }
+      ],
+      "provenance": {
+        "trust_tier": "ai-verified",
+        "source": "menickacz",
+        "updated_at": "2026-02-07T06:50:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000006",
+        "name": "Restaurace U Divadla",
+        "slug": "restaurace-u-divadla",
+        "type": "restaurant",
+        "address": "Divadelní náměstí 2, 669 02 Znojmo",
+        "lat": 48.8565,
+        "lng": 16.0475,
+        "phone": "+420 515 222 800",
+        "website": "https://www.udivadlaznojmo.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "human-verified",
+          "source": "owner:jan-vesely",
+          "updated_at": "2026-01-25T11:00:00Z"
+        }
+      }
+    },
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000007",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Dršťková polévka", "price": 52, "category": "soup" },
+        { "name": "Vepřová panenka na smetanové omáčce s rýží", "price": 185, "category": "main" },
+        { "name": "Hovězí svíčková na smetaně", "price": 179, "category": "main" },
+        { "name": "Smažená květáková placka s bramborem (veg)", "price": 149, "category": "main" },
+        { "name": "Domácí koláč s mákem", "price": 55, "category": "dessert" }
+      ],
+      "provenance": {
+        "trust_tier": "auto-scraped",
+        "source": "menickacz",
+        "updated_at": "2026-02-07T07:30:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000007",
+        "name": "Na Staré poště",
+        "slug": "na-stare-poste",
+        "type": "restaurant",
+        "address": "Jezuitské náměstí 5, 669 02 Znojmo",
+        "lat": 48.8560,
+        "lng": 16.0468,
+        "phone": "+420 515 224 700",
+        "website": null,
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "auto-scraped",
+          "source": "menickacz",
+          "updated_at": "2026-01-12T16:00:00Z"
+        }
+      }
+    },
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000008",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Zeleninový krém s parmezánem", "price": 55, "category": "soup" },
+        { "name": "Znojemská svíčková s karlovarským knedlíkem", "price": 189, "category": "main" },
+        { "name": "Pečený pstruh na másle s mandlemi", "price": 209, "category": "main" },
+        { "name": "Grilovaná zelenina s halloumi (veg)", "price": 165, "category": "main" },
+        { "name": "Čokoládový fondant", "price": 89, "category": "dessert" }
+      ],
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "owner:petr-mourenin",
+        "updated_at": "2026-02-07T07:00:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000008",
+        "name": "Restaurace U Mouřenína",
+        "slug": "restaurace-u-mourenina",
+        "type": "restaurant",
+        "address": "Dolní Česká 1, 669 02 Znojmo",
+        "lat": 48.8548,
+        "lng": 16.0502,
+        "phone": "+420 515 226 900",
+        "website": "https://www.umourenina.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "owner",
+          "source": "owner:petr-mourenin",
+          "updated_at": "2026-01-30T09:00:00Z"
+        }
+      }
+    },
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000009",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Minestrone", "price": 59, "category": "soup" },
+        { "name": "Spaghetti Carbonara", "price": 175, "category": "main" },
+        { "name": "Pizza Margherita", "price": 155, "category": "main" },
+        { "name": "Risotto ai funghi porcini", "price": 195, "category": "main" },
+        { "name": "Tiramisu", "price": 89, "category": "dessert" },
+        { "name": "Prosecco 0.1l", "price": 65, "category": "drink" }
+      ],
+      "provenance": {
+        "trust_tier": "human-verified",
+        "source": "menickacz",
+        "updated_at": "2026-02-07T06:40:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000009",
+        "name": "La Botte",
+        "slug": "la-botte",
+        "type": "restaurant",
+        "address": "Horní náměstí 3, 669 02 Znojmo",
+        "lat": 48.8557,
+        "lng": 16.0488,
+        "phone": "+420 515 225 400",
+        "website": "https://www.labotteznojmo.cz",
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "owner",
+          "source": "owner:marco-bianchi",
+          "updated_at": "2026-01-28T10:00:00Z"
+        }
+      }
+    },
+    {
+      "place_id": "a1b2c3d4-1111-4000-8000-000000000010",
+      "date": "2026-02-07",
+      "items": [
+        { "name": "Gulášová polévka", "price": 49, "category": "soup" },
+        { "name": "Vepřová žebírka s medovou glazurou", "price": 199, "category": "main" },
+        { "name": "Kuřecí supreme s bramborovým gratinem", "price": 185, "category": "main" },
+        { "name": "Domácí švestkové knedlíky", "price": 119, "category": "dessert" }
+      ],
+      "provenance": {
+        "trust_tier": "ai-verified",
+        "source": "menickacz",
+        "updated_at": "2026-02-07T07:10:00Z"
+      },
+      "place": {
+        "id": "a1b2c3d4-1111-4000-8000-000000000010",
+        "name": "Restaurace Na Vyhlídce",
+        "slug": "restaurace-na-vyhlidce",
+        "type": "restaurant",
+        "address": "Hradní 8, 669 02 Znojmo",
+        "lat": 48.8540,
+        "lng": 16.0460,
+        "phone": "+420 515 229 200",
+        "website": null,
+        "thumbnail_url": null,
+        "provenance": {
+          "trust_tier": "ai-verified",
+          "source": "menickacz",
+          "updated_at": "2026-01-18T13:00:00Z"
+        }
+      }
+    }
+  ],
+  "total": 10,
+  "date": "2026-02-07"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "c1c2c3c4-0001-4000-8000-000000000009",
+  "title": "Noční prohlídka Znojemského podzemí",
+  "date_start": "2026-02-28T20:00:00Z",
+  "date_end": "2026-02-28T22:00:00Z",
+  "category": "other",
+  "place": {
+    "id": "a1b2c3d4-4444-4000-8000-000000000004",
+    "name": "Podzemí Znojmo",
+    "slug": "podzemi-znojmo",
+    "type": "attraction",
+    "address": "Slepičí trh 2, 669 02 Znojmo",
+    "lat": 48.8555,
+    "lng": 16.0490,
+    "phone": "+420 515 221 342",
+    "website": "https://www.znojmocity.cz/podzemi",
+    "thumbnail_url": null,
+    "provenance": {
+      "trust_tier": "owner",
+      "source": "znojmocity.cz",
+      "updated_at": "2026-01-15T10:00:00Z"
+    }
+  },
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "znojmocity.cz",
+    "updated_at": "2026-02-04T11:00:00Z"
+  },
+  "description": "Speciální noční prohlídka znojemského podzemí při svíčkách. Zážitek, který návštěvníkům odhalí tajemnou atmosféru středověkých chodeb pod historickým centrem Znojma. Průvodce v dobovém kostýmu provede skupinu rozšířenou trasou podzemních labyrintů a přiblíží historii podzemí, legendy spojené s jeho vznikem i příběhy lidí, kteří se v chodbách ukrývali v dobách válek. Prohlídka trvá přibližně 90 minut. Doporučujeme teplé oblečení — teplota v podzemí je celoročně kolem 11 °C. Kapacita je omezena na 25 osob, nutná rezervace.",
+  "ticket_url": "https://www.znojmocity.cz/podzemi/nocni-prohlidky",
+  "photos": []
+}

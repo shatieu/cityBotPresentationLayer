@@ -1,0 +1,139 @@
+{
+  "id": "a1b2c3d4-2222-4000-8000-000000000001",
+  "name": "Kino Svět Znojmo",
+  "slug": "kino-svet-znojmo",
+  "type": "cinema",
+  "address": "Pontassievská 1, 669 02 Znojmo",
+  "lat": 48.8570,
+  "lng": 16.0510,
+  "phone": "+420 515 224 890",
+  "website": "https://www.kinoznojmo.cz",
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "kinoznojmo.cz",
+    "updated_at": "2026-02-06T18:00:00Z"
+  },
+  "description": "Městské kino Svět je jednosálové kino v centru Znojma, které nabízí aktuální filmové premiéry, artové filmy i dětská představení. Kino bylo kompletně zrekonstruováno v roce 2019 a disponuje moderní digitální projekcí a Dolby zvukovým systémem. Kapacita sálu je 280 míst. Pravidelně se zde konají filmové festivaly a speciální tematické projekce.",
+  "opening_hours": {
+    "monday": "14:00–22:00",
+    "tuesday": "14:00–22:00",
+    "wednesday": "14:00–22:00",
+    "thursday": "14:00–22:00",
+    "friday": "14:00–23:00",
+    "saturday": "10:00–23:00",
+    "sunday": "10:00–21:00"
+  },
+  "photos": [],
+  "links": {
+    "facebook": "https://www.facebook.com/kinosvetznojmo",
+    "google_maps": "https://maps.google.com/?cid=12345678901234569"
+  },
+  "today_menu": null,
+  "showtimes": [
+    {
+      "id": "b1b2c3d4-0001-4000-8000-000000000001",
+      "film_title": "Vlny",
+      "film_title_original": "Vlny",
+      "time": "17:00",
+      "language": "česky",
+      "duration_minutes": 128,
+      "genre": "drama, historický",
+      "rating": "87%",
+      "poster_url": null,
+      "ticket_url": "https://www.kinoznojmo.cz/program/vlny",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "kinoznojmo.cz",
+        "updated_at": "2026-02-06T18:00:00Z"
+      }
+    },
+    {
+      "id": "b1b2c3d4-0001-4000-8000-000000000002",
+      "film_title": "Příšerně šťastní",
+      "film_title_original": "Příšerně šťastní",
+      "time": "17:30",
+      "language": "česky",
+      "duration_minutes": 105,
+      "genre": "komedie, romantický",
+      "rating": "72%",
+      "poster_url": null,
+      "ticket_url": "https://www.kinoznojmo.cz/program/priserne-stastni",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "kinoznojmo.cz",
+        "updated_at": "2026-02-06T18:00:00Z"
+      }
+    },
+    {
+      "id": "b1b2c3d4-0001-4000-8000-000000000003",
+      "film_title": "Duna: Část druhá",
+      "film_title_original": "Dune: Part Two",
+      "time": "19:30",
+      "language": "EN titulky",
+      "duration_minutes": 166,
+      "genre": "sci-fi, dobrodružný",
+      "rating": "93%",
+      "poster_url": null,
+      "ticket_url": "https://www.kinoznojmo.cz/program/duna-cast-druha",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "kinoznojmo.cz",
+        "updated_at": "2026-02-06T18:00:00Z"
+      }
+    },
+    {
+      "id": "b1b2c3d4-0001-4000-8000-000000000004",
+      "film_title": "Ledové království 3",
+      "film_title_original": "Frozen III",
+      "time": "15:00",
+      "language": "CZ dabing",
+      "duration_minutes": 102,
+      "genre": "animovaný, rodinný",
+      "rating": "78%",
+      "poster_url": null,
+      "ticket_url": "https://www.kinoznojmo.cz/program/ledove-kralovstvi-3",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "kinoznojmo.cz",
+        "updated_at": "2026-02-06T18:00:00Z"
+      }
+    },
+    {
+      "id": "b1b2c3d4-0001-4000-8000-000000000005",
+      "film_title": "Nosferatu",
+      "film_title_original": "Nosferatu",
+      "time": "20:00",
+      "language": "EN titulky",
+      "duration_minutes": 132,
+      "genre": "horor, drama",
+      "rating": "85%",
+      "poster_url": null,
+      "ticket_url": "https://www.kinoznojmo.cz/program/nosferatu",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "kinoznojmo.cz",
+        "updated_at": "2026-02-06T18:00:00Z"
+      }
+    },
+    {
+      "id": "b1b2c3d4-0001-4000-8000-000000000006",
+      "film_title": "Konkláve",
+      "film_title_original": "Conclave",
+      "time": "20:15",
+      "language": "EN titulky",
+      "duration_minutes": 120,
+      "genre": "thriller, drama",
+      "rating": "91%",
+      "poster_url": null,
+      "ticket_url": "https://www.kinoznojmo.cz/program/konklave",
+      "provenance": {
+        "trust_tier": "owner",
+        "source": "kinoznojmo.cz",
+        "updated_at": "2026-02-06T18:00:00Z"
+      }
+    }
+  ],
+  "tasting_schedule": null,
+  "upcoming_events": []
+}

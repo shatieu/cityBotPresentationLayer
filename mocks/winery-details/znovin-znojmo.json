@@ -1,0 +1,60 @@
+{
+  "id": "a1b2c3d4-3333-4000-8000-000000000001",
+  "name": "Znovín Znojmo",
+  "slug": "znovin-znojmo",
+  "type": "winery",
+  "address": "Šatov 404, 671 22 Šatov",
+  "lat": 48.8020,
+  "lng": 16.0110,
+  "phone": "+420 515 266 611",
+  "website": "https://www.znovin.cz",
+  "thumbnail_url": null,
+  "provenance": {
+    "trust_tier": "owner",
+    "source": "owner:znovin-znojmo",
+    "updated_at": "2026-01-15T10:00:00Z"
+  },
+  "wine_types": ["Veltlínské zelené", "Sauvignon", "Ryzlink rýnský", "Rulandské šedé", "Pálava", "Frankovka", "Zweigeltrebe"],
+  "has_tastings": true,
+  "open_today": true,
+  "description": "Znovín Znojmo je jedním z nejvýznamnějších vinařských podniků na jižní Moravě s tradicí sahající až do roku 1752. Společnost obhospodařuje přes 600 hektarů vinic ve znojemské vinařské podoblasti, včetně proslulé viniční trati Šobes — jedné z deseti nejlepších viničních poloh v Evropě. Znovín produkuje širokou škálu bílých, růžových i červených vín a pravidelně získává ocenění na domácích i mezinárodních soutěžích. V areálu v Šatově je k dispozici vinotéka s degustací a prodejnou.",
+  "tasting_schedule": {
+    "regular_hours": {
+      "monday": "09:00–17:00",
+      "tuesday": "09:00–17:00",
+      "wednesday": "09:00–17:00",
+      "thursday": "09:00–17:00",
+      "friday": "09:00–18:00",
+      "saturday": "10:00–18:00",
+      "sunday": "10:00–16:00"
+    },
+    "seasonal_note": "V zimním období (listopad–březen) je vinotéka o víkendech otevřena pouze do 16:00. Skupinové degustace na objednávku i mimo otevírací dobu.",
+    "next_event": {
+      "title": "Degustace vín ročníku 2025 — Znovín Znojmo",
+      "date": "2026-02-14T14:00:00Z",
+      "description": "Komentovaná degustace nových vín ročníku 2025 s vinařem Pavlem Švehlou. V ceně 8 vzorků vína a občerstvení."
+    },
+    "provenance": {
+      "trust_tier": "owner",
+      "source": "owner:znovin-znojmo",
+      "updated_at": "2026-02-01T10:00:00Z"
+    }
+  },
+  "photos": [],
+  "upcoming_events": [
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000005",
+      "title": "Degustace vín ročníku 2025 — Znovín Znojmo",
+      "date_start": "2026-02-14T14:00:00Z",
+      "date_end": "2026-02-14T18:00:00Z",
+      "category": "wine"
+    },
+    {
+      "id": "c1c2c3c4-0001-4000-8000-000000000011",
+      "title": "Jarní otevřené sklepy — Znojemská vinařská podoblast",
+      "date_start": "2026-04-18T10:00:00Z",
+      "date_end": "2026-04-19T18:00:00Z",
+      "category": "wine"
+    }
+  ]
+}
