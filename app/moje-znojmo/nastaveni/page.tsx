@@ -40,20 +40,20 @@ export default function DashboardNastaveniPage() {
   if (!isLoggedIn) return null;
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50/60 via-surface to-surface">
+    <div className="min-h-screen bg-gradient-to-b from-gold-50/60 via-surface to-surface">
       <PageContainer className="py-6">
         <Link
           href="/moje-znojmo"
-          className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-green-700 transition-colors mb-4"
+          className="inline-flex items-center gap-1.5 text-sm text-stone-500 hover:text-gold-700 transition-colors mb-4"
         >
           <ArrowLeft size={14} />
           Zpět na dashboard
         </Link>
 
-        <h1 className="font-heading text-2xl font-bold text-green-900 mb-1">
+        <h1 className="font-heading text-2xl font-bold text-ink-900 mb-1">
           Nastavení dashboardu
         </h1>
-        <p className="text-sm text-gray-500 mb-6">
+        <p className="text-sm text-stone-500 mb-6">
           Vyberte, které widgety chcete zobrazovat. Změny se ukládají automaticky.
         </p>
 
@@ -70,26 +70,26 @@ export default function DashboardNastaveniPage() {
                 className={`
                   w-full flex items-center gap-3 p-3 rounded-base border transition-all text-left
                   ${enabled
-                    ? "bg-white/80 border-green-200 shadow-glass"
-                    : "bg-white/40 border-gray-100 opacity-70"
+                    ? "bg-white border-gold-300 shadow-card"
+                    : "bg-white/60 border-stone-100 opacity-70"
                   }
-                  hover:shadow-glass-hover hover:bg-white/90
+                  hover:shadow-card-hover hover:bg-white
                 `}
               >
                 {Icon && (
-                  <div className={`w-9 h-9 rounded-base flex items-center justify-center flex-shrink-0 ${enabled ? "bg-green-100" : "bg-gray-100"}`}>
+                  <div className={`w-9 h-9 rounded-base flex items-center justify-center flex-shrink-0 ${enabled ? "bg-gold-100" : "bg-stone-100"}`}>
                     <Icon
                       size={16}
-                      className={enabled ? "text-green-700" : "text-gray-400"}
+                      className={enabled ? "text-gold-700" : "text-stone-500"}
                     />
                   </div>
                 )}
 
                 <div className="flex-1 min-w-0">
-                  <span className={`font-heading font-semibold text-sm ${enabled ? "text-green-900" : "text-gray-500"}`}>
+                  <span className={`font-heading font-semibold text-sm ${enabled ? "text-ink-900" : "text-stone-500"}`}>
                     {meta.title}
                   </span>
-                  <span className="text-xs text-gray-400 ml-2">
+                  <span className="text-xs text-stone-500 ml-2">
                     {sizeLabels[meta.defaultSize]}
                   </span>
                 </div>
@@ -97,7 +97,7 @@ export default function DashboardNastaveniPage() {
                 <div
                   className={`
                     relative w-10 h-6 rounded-full transition-colors flex-shrink-0
-                    ${enabled ? "bg-green-500" : "bg-gray-300"}
+                    ${enabled ? "bg-gold-500" : "bg-stone-300"}
                   `}
                 >
                   <div
@@ -112,7 +112,7 @@ export default function DashboardNastaveniPage() {
           })}
         </div>
 
-        <p className="text-xs text-gray-400 mt-6 max-w-2xl">
+        <p className="text-xs text-stone-500 mt-6 max-w-2xl">
           Nastavení se ukládají do prohlížeče (localStorage). Po připojení backendu se budou synchronizovat s vaším účtem.
         </p>
       </PageContainer>

@@ -33,13 +33,13 @@ export function SortDropdown({ options, value, onChange }: SortDropdownProps) {
     <div ref={ref} className="relative inline-block">
       <button
         onClick={() => setOpen(!open)}
-        className="inline-flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-gray-700 hover:text-green-700 bg-white rounded-base shadow-card transition-colors"
+        className="inline-flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-stone-700 hover:text-gold-700 bg-white rounded-base shadow-card transition-colors"
       >
         <ArrowUpDown size={14} />
         {current?.label ?? "Řazení"}
       </button>
       {open && (
-        <div className="absolute right-0 top-full mt-1 min-w-[160px] bg-white rounded-base shadow-card-hover border border-gray-100 py-1 z-50">
+        <div className="absolute right-0 top-full mt-1 min-w-[160px] bg-white rounded-base shadow-card-hover border border-stone-100 py-1 z-50">
           {options.map((option) => (
             <button
               key={option.value}
@@ -49,8 +49,8 @@ export function SortDropdown({ options, value, onChange }: SortDropdownProps) {
               }}
               className={`block w-full text-left px-3 py-2 text-sm transition-colors ${
                 option.value === value
-                  ? "text-green-700 bg-green-50"
-                  : "text-gray-700 hover:bg-green-50 hover:text-green-700"
+                  ? "text-gold-700 bg-gold-50"
+                  : "text-stone-700 hover:bg-gold-50 hover:text-gold-700"
               }`}
             >
               {option.label}

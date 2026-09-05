@@ -9,7 +9,7 @@ export function TimeIndicator({ datetime, className = "" }: TimeIndicatorProps) 
   return (
     <time
       dateTime={datetime}
-      className={`text-xs text-gray-700 font-body ${className}`}
+      className={`text-xs text-stone-700 font-body ${className}`}
     >
       {formatDateWithTime(datetime)}
     </time>

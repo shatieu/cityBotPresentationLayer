@@ -19,20 +19,20 @@ export default async function NewsDetailPage({ params }: Props) {
     <PageContainer className="py-6">
       <div className="max-w-2xl">
         <div className="flex items-center gap-2 mb-3">
-          <Badge variant="gray">{article.source_name}</Badge>
+          <Badge variant="stone">{article.source_name}</Badge>
           {article.provenance && <TrustBadge provenance={article.provenance} />}
         </div>
 
-        <h1 className="font-heading text-2xl font-bold text-green-900 mb-2">
+        <h1 className="font-heading text-2xl font-bold text-ink-900 mb-2">
           {article.title}
         </h1>
 
-        <p className="text-sm text-gray-500 mb-6">
+        <p className="text-sm text-stone-500 mb-6">
           {formatCzechDateFull(article.published_at)}
         </p>
 
         {article.summary && (
-          <div className="text-sm text-gray-900 leading-relaxed mb-6">
+          <div className="text-sm text-ink-900 leading-relaxed mb-6">
             {article.summary}
           </div>
         )}

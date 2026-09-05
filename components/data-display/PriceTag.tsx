@@ -7,7 +7,7 @@ interface PriceTagProps {
 
 export function PriceTag({ price, className = "" }: PriceTagProps) {
   return (
-    <span className={`font-data text-amber-700 ${className}`}>
+    <span className={`font-data text-wine-700 ${className}`}>
       {formatPrice(price)}
     </span>
   );

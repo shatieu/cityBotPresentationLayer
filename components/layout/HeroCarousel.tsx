@@ -32,7 +32,7 @@ export function HeroCarousel({ slides, autoPlayMs = 5000 }: HeroCarouselProps) {
   const slide = slides[current];
 
   return (
-    <div className="relative w-full h-[240px] md:h-[320px] lg:h-[400px] rounded-base overflow-hidden bg-green-100">
+    <div className="relative w-full h-[240px] md:h-[320px] lg:h-[400px] rounded-base overflow-hidden bg-gold-100">
       <Image
         src={slide.src}
         alt={slide.alt}
@@ -40,7 +40,7 @@ export function HeroCarousel({ slides, autoPlayMs = 5000 }: HeroCarouselProps) {
         className="object-cover"
         priority
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-green-900/60 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-ink-900/60 to-transparent" />
       {(slide.title || slide.subtitle) && (
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
           {slide.title && (
@@ -59,14 +59,14 @@ export function HeroCarousel({ slides, autoPlayMs = 5000 }: HeroCarouselProps) {
         <>
           <button
             onClick={() => setCurrent((prev) => (prev - 1 + slides.length) % slides.length)}
-            className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-base bg-white/80 flex items-center justify-center text-green-900 hover:bg-white transition-colors"
+            className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-base bg-white/80 flex items-center justify-center text-ink-900 hover:bg-white transition-colors"
             aria-label="Předchozí"
           >
             <ChevronLeft size={16} />
           </button>
           <button
             onClick={() => setCurrent((prev) => (prev + 1) % slides.length)}
-            className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-base bg-white/80 flex items-center justify-center text-green-900 hover:bg-white transition-colors"
+            className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-base bg-white/80 flex items-center justify-center text-ink-900 hover:bg-white transition-colors"
             aria-label="Další"
           >
             <ChevronRight size={16} />

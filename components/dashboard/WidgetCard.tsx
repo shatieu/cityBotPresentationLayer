@@ -5,7 +5,7 @@ import { WidgetCardHeader } from "./WidgetCardHeader";
 import { Skeleton } from "@/components/ui/Skeleton";
 import type { WidgetSize } from "@/lib/types/dashboard";
 
-export type WidgetAccent = "green" | "amber" | "terracotta" | "neutral";
+export type WidgetAccent = "gold" | "wine" | "terracotta" | "neutral";
 
 interface WidgetCardProps {
   title: string;
@@ -23,10 +23,10 @@ interface WidgetCardProps {
 }
 
 const accentBorderColors: Record<WidgetAccent, string> = {
-  green: "border-l-green-500",
-  amber: "border-l-amber-500",
+  gold: "border-l-gold-500",
+  wine: "border-l-wine-500",
   terracotta: "border-l-terracotta-500",
-  neutral: "border-l-gray-300",
+  neutral: "border-l-stone-300",
 };
 
 export function WidgetCard({
@@ -34,7 +34,7 @@ export function WidgetCard({
   icon,
   href,
   size,
-  accent = "green",
+  accent = "gold",
   loading = false,
   expandable = false,
   collapsedCount,
@@ -54,11 +54,11 @@ export function WidgetCard({
     <div
       className={`
         group/card relative
-        bg-white/75 backdrop-blur-sm
-        border border-white/60 border-l-[3px] ${accentBorderColors[accent]}
-        rounded-base shadow-glass
-        transition-all duration-200 ease-out
-        hover:shadow-glass-hover hover:scale-[1.008] hover:bg-white/90
+        bg-white
+        border border-stone-100 border-l-[3px] ${accentBorderColors[accent]}
+        rounded-base shadow-card
+        transition-shadow duration-150 ease-out
+        hover:shadow-card-hover
         ${noPadding ? "" : "p-4"}
         ${sizeClass} ${className}
       `.trim()}
@@ -84,7 +84,7 @@ export function WidgetCard({
           {showExpandBtn && (
             <button
               onClick={() => setExpanded(true)}
-              className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-green-700 bg-green-50 hover:bg-green-100 px-2.5 py-1 rounded-base transition-colors"
+              className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-gold-700 bg-gold-50 hover:bg-gold-100 px-2.5 py-1 rounded-base transition-colors"
             >
               Zobrazit více ({totalCount! - collapsedCount!} dalších)
             </button>
@@ -92,7 +92,7 @@ export function WidgetCard({
           {expanded && expandable && (
             <button
               onClick={() => setExpanded(false)}
-              className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-gray-500 hover:text-gray-700 bg-gray-50 hover:bg-gray-100 px-2.5 py-1 rounded-base transition-colors"
+              className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-stone-500 hover:text-stone-700 bg-stone-100 hover:bg-stone-300 px-2.5 py-1 rounded-base transition-colors"
             >
               Sbalit
             </button>

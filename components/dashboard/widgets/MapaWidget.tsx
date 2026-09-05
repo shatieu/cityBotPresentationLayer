@@ -28,12 +28,12 @@ export function MapaWidget() {
       icon="MapPin"
       href="/mapa"
       size="medium"
-      accent="green"
+      accent="gold"
       loading={loading}
       noPadding
     >
       <div className="px-4 pt-4 pb-2">
-        <WidgetCardHeader title="Mapa" icon="MapPin" href="/mapa" accent="green" />
+        <WidgetCardHeader title="Mapa" icon="MapPin" href="/mapa" accent="gold" />
       </div>
       <div className="relative">
         <div className="h-[220px] overflow-hidden rounded-b-base">
@@ -41,7 +41,7 @@ export function MapaWidget() {
         </div>
         <Link
           href="/mapa"
-          className="absolute bottom-3 right-3 inline-flex items-center gap-1 text-xs font-medium text-green-900 bg-white/90 backdrop-blur-sm shadow-glass px-2.5 py-1.5 rounded-base hover:bg-white transition-colors"
+          className="absolute bottom-3 right-3 inline-flex items-center gap-1 text-xs font-medium text-ink-900 bg-white shadow-card px-2.5 py-1.5 rounded-base hover:bg-gold-50 transition-colors"
         >
           <MapPin size={12} />
           Otevřít mapu

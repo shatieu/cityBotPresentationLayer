@@ -25,7 +25,7 @@ export function MenuCard({ menu }: MenuCardProps) {
       <div className="flex items-start justify-between gap-2 mb-3">
         <Link
           href={placeSlug ? `/gastro/${placeSlug}` : "#"}
-          className="font-heading font-semibold text-green-900 hover:text-green-700 transition-colors"
+          className="font-heading font-semibold text-ink-900 hover:text-gold-700 transition-colors"
         >
           {placeName}
         </Link>
@@ -35,10 +35,10 @@ export function MenuCard({ menu }: MenuCardProps) {
         {menu.items.map((item, i) => (
           <li key={i} className="flex items-baseline justify-between gap-2">
             <div className="min-w-0">
-              <span className="text-xs text-gray-500 mr-1.5">
+              <span className="text-xs text-stone-500 mr-1.5">
                 {categoryLabels[item.category] ?? ""}
               </span>
-              <span className="text-sm text-gray-900">{item.name}</span>
+              <span className="text-sm text-ink-900">{item.name}</span>
             </div>
             <PriceTag price={item.price} className="flex-shrink-0 text-sm" />
           </li>

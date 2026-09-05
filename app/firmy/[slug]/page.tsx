@@ -18,10 +18,10 @@ export default async function BusinessDetailPage({ params }: Props) {
       <div className="max-w-3xl">
         <div className="flex items-start justify-between gap-2 mb-4">
           <div>
-            <h1 className="font-heading text-2xl font-bold text-green-900">
+            <h1 className="font-heading text-2xl font-bold text-ink-900">
               {business.name}
             </h1>
-            <p className="text-sm text-gray-500 mt-0.5">{business.address}</p>
+            <p className="text-sm text-stone-500 mt-0.5">{business.address}</p>
           </div>
           {business.provenance && <TrustBadge provenance={business.provenance} />}
         </div>
@@ -29,7 +29,7 @@ export default async function BusinessDetailPage({ params }: Props) {
         {business.tags && business.tags.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mb-6">
             {business.tags.map((tag) => (
-              <Badge key={tag} variant="gray">{tag}</Badge>
+              <Badge key={tag} variant="stone">{tag}</Badge>
             ))}
           </div>
         )}
@@ -38,13 +38,13 @@ export default async function BusinessDetailPage({ params }: Props) {
           {/* Services */}
           {business.services && business.services.length > 0 && (
             <Card hover={false}>
-              <h2 className="font-heading font-semibold text-green-900 mb-3">
+              <h2 className="font-heading font-semibold text-ink-900 mb-3">
                 Služby
               </h2>
               <ul className="space-y-1.5">
                 {business.services.map((service) => (
-                  <li key={service} className="text-sm text-gray-700 flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-sm bg-green-300 flex-shrink-0" />
+                  <li key={service} className="text-sm text-stone-700 flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-sm bg-gold-300 flex-shrink-0" />
                     {service}
                   </li>
                 ))}
@@ -54,15 +54,15 @@ export default async function BusinessDetailPage({ params }: Props) {
 
           {/* Contact */}
           <Card hover={false}>
-            <h2 className="font-heading font-semibold text-green-900 mb-3">
+            <h2 className="font-heading font-semibold text-ink-900 mb-3">
               Kontakt
             </h2>
             <dl className="space-y-2 text-sm">
               {business.phone && (
                 <div>
-                  <dt className="text-gray-500">Telefon</dt>
+                  <dt className="text-stone-500">Telefon</dt>
                   <dd className="font-data">
-                    <a href={`tel:${business.phone}`} className="text-green-700">
+                    <a href={`tel:${business.phone}`} className="text-gold-700">
                       {business.phone}
                     </a>
                   </dd>
@@ -70,13 +70,13 @@ export default async function BusinessDetailPage({ params }: Props) {
               )}
               {business.website && (
                 <div>
-                  <dt className="text-gray-500">Web</dt>
+                  <dt className="text-stone-500">Web</dt>
                   <dd>
                     <a
                       href={business.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-green-700 hover:text-green-500 transition-colors"
+                      className="text-gold-700 hover:text-gold-500 transition-colors"
                     >
                       {business.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}
                     </a>
@@ -85,8 +85,8 @@ export default async function BusinessDetailPage({ params }: Props) {
               )}
               {business.ico && (
                 <div>
-                  <dt className="text-gray-500">IČO</dt>
-                  <dd className="font-data text-gray-700">{business.ico}</dd>
+                  <dt className="text-stone-500">IČO</dt>
+                  <dd className="font-data text-stone-700">{business.ico}</dd>
                 </div>
               )}
             </dl>

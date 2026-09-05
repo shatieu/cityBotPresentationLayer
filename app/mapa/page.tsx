@@ -7,7 +7,7 @@ import type { MapMarker } from "@/lib/types";
 
 const MapView = dynamic(
   () => import("@/components/map/MapView").then((m) => m.MapView),
-  { ssr: false, loading: () => <div className="w-full h-full bg-green-50 animate-pulse" /> }
+  { ssr: false, loading: () => <div className="w-full h-full bg-gold-50 animate-pulse" /> }
 );
 
 const typeFilters = [
@@ -38,7 +38,7 @@ export default function MapaPage() {
 
   return (
     <div className="flex flex-col h-[calc(100vh-56px)] md:h-[calc(100vh-64px)]">
-      <div className="px-4 py-3 bg-white border-b border-gray-100 overflow-x-auto">
+      <div className="px-4 py-3 bg-white border-b border-stone-100 overflow-x-auto">
         <FilterChips options={typeFilters} value={type} onChange={setType} />
       </div>
       <div className="flex-1">

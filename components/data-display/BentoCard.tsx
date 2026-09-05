@@ -43,16 +43,16 @@ export function BentoCard({ id, label, href, icon, count, description }: BentoCa
   return (
     <Link href={href}>
       <Card className="h-full flex flex-col items-start gap-3">
-        <div className="w-10 h-10 rounded-base bg-green-100 flex items-center justify-center">
-          <Icon size={20} className="text-green-700" />
+        <div className="w-10 h-10 rounded-base bg-gold-100 flex items-center justify-center">
+          <Icon size={20} className="text-gold-700" />
         </div>
         <div>
-          <h3 className="font-heading font-semibold text-green-900">{label}</h3>
+          <h3 className="font-heading font-semibold text-ink-900">{label}</h3>
           {description && (
-            <p className="text-sm text-gray-500 mt-0.5">{description}</p>
+            <p className="text-sm text-stone-500 mt-0.5">{description}</p>
           )}
           {count !== undefined && (
-            <p className="font-data text-sm text-amber-700 mt-1">
+            <p className="font-data text-sm text-wine-700 mt-1">
               {count} položek
             </p>
           )}

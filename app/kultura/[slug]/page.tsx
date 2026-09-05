@@ -12,7 +12,7 @@ export default async function KulturaPlacePage({ params }: Props) {
 
   return (
     <PlacePageLayout place={place}>
-      <div className="text-sm text-gray-700 leading-relaxed">
+      <div className="text-sm text-stone-700 leading-relaxed">
         {place.description && <p>{place.description}</p>}
       </div>
     </PlacePageLayout>

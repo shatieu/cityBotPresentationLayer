@@ -29,18 +29,18 @@ export default async function EventDetailPage({ params }: Props) {
       <div className="max-w-2xl">
         <div className="flex items-center gap-2 mb-3">
           {event.category && (
-            <Badge variant="amber">
+            <Badge variant="wine">
               {categoryLabels[event.category] ?? event.category}
             </Badge>
           )}
           {event.provenance && <TrustBadge provenance={event.provenance} />}
         </div>
 
-        <h1 className="font-heading text-2xl font-bold text-green-900 mb-2">
+        <h1 className="font-heading text-2xl font-bold text-ink-900 mb-2">
           {event.title}
         </h1>
 
-        <div className="text-sm text-gray-700 space-y-1 mb-6">
+        <div className="text-sm text-stone-700 space-y-1 mb-6">
           <p>
             <time dateTime={event.date_start}>
               {formatCzechDateFull(event.date_start)}
@@ -58,7 +58,7 @@ export default async function EventDetailPage({ params }: Props) {
             <p>
               <Link
                 href={`/places/${event.place.slug}`}
-                className="text-green-700 hover:text-green-500 transition-colors"
+                className="text-gold-700 hover:text-gold-500 transition-colors"
               >
                 {event.place.name}
               </Link>
@@ -68,7 +68,7 @@ export default async function EventDetailPage({ params }: Props) {
         </div>
 
         {event.description && (
-          <div className="text-sm text-gray-900 leading-relaxed mb-6 whitespace-pre-line">
+          <div className="text-sm text-ink-900 leading-relaxed mb-6 whitespace-pre-line">
             {event.description}
           </div>
         )}

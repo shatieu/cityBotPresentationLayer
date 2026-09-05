@@ -7,16 +7,16 @@ interface MapMarkerPopupProps {
 
 const typeLabels: Record<string, string> = {
   restaurant: "Restaurace",
-  cafe: "KavĂˇrna",
+  cafe: "Kavárna",
   bar: "Bar",
   cinema: "Kino",
   theatre: "Divadlo",
-  winery: "VinaĹ™stvĂ­",
-  attraction: "PamĂˇtka",
-  accommodation: "UbytovĂˇnĂ­",
+  winery: "Vinařství",
+  attraction: "Památka",
+  accommodation: "Ubytování",
   sport: "Sport",
   shopping: "Obchod",
-  office: "ĂšĹ™ad",
+  office: "Úřad",
   business: "Firma",
 };
 
@@ -43,15 +43,15 @@ function getMarkerHref(marker: MapMarker): string {
 export function MapMarkerPopup({ marker }: MapMarkerPopupProps) {
   return (
     <div className="p-1 min-w-[160px]">
-      <p className="font-heading font-semibold text-green-900 text-sm">
+      <p className="font-heading font-semibold text-ink-900 text-sm">
         {marker.name}
       </p>
-      <p className="text-xs text-gray-700 mt-0.5">
+      <p className="text-xs text-stone-700 mt-0.5">
         {typeLabels[marker.type] || marker.type}
       </p>
       <Link
         href={getMarkerHref(marker)}
-        className="inline-block mt-1.5 text-xs text-green-700 hover:text-green-500 font-medium"
+        className="inline-block mt-1.5 text-xs text-gold-700 hover:text-gold-500 font-medium"
       >
         Zobrazit detail
       </Link>

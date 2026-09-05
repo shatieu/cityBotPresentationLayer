@@ -25,7 +25,7 @@ export default async function GastroPlacePage({ params }: Props) {
       {menu ? (
         <div>
           <div className="flex items-center justify-between mb-4">
-            <h2 className="font-heading text-lg font-semibold text-green-900">
+            <h2 className="font-heading text-lg font-semibold text-ink-900">
               Dnešní menu
             </h2>
             <TrustBadge provenance={menu.provenance} />
@@ -33,7 +33,7 @@ export default async function GastroPlacePage({ params }: Props) {
           <MenuCard menu={menu} />
         </div>
       ) : (
-        <div className="text-sm text-gray-500 py-8 text-center">
+        <div className="text-sm text-stone-500 py-8 text-center">
           Denní menu dnes není k dispozici.
         </div>
       )}

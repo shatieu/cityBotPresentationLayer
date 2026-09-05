@@ -15,17 +15,17 @@ export function DateRangePicker({ from, to, onPrev, onNext }: DateRangePickerPro
     <div className="inline-flex items-center gap-2">
       <button
         onClick={onPrev}
-        className="w-8 h-8 rounded-base bg-white shadow-card flex items-center justify-center text-gray-700 hover:text-green-700 transition-colors"
+        className="w-8 h-8 rounded-base bg-white shadow-card flex items-center justify-center text-stone-700 hover:text-gold-700 transition-colors"
         aria-label="Předchozí období"
       >
         <ChevronLeft size={16} />
       </button>
-      <span className="text-sm font-medium text-green-900 min-w-[200px] text-center">
+      <span className="text-sm font-medium text-ink-900 min-w-[200px] text-center">
         {formatCzechDate(from)} – {formatCzechDate(to)}
       </span>
       <button
         onClick={onNext}
-        className="w-8 h-8 rounded-base bg-white shadow-card flex items-center justify-center text-gray-700 hover:text-green-700 transition-colors"
+        className="w-8 h-8 rounded-base bg-white shadow-card flex items-center justify-center text-stone-700 hover:text-gold-700 transition-colors"
         aria-label="Další období"
       >
         <ChevronRight size={16} />

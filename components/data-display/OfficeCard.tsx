@@ -14,17 +14,17 @@ export function OfficeCard({ office }: OfficeCardProps) {
       <Card>
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
-            <h3 className="font-heading font-semibold text-green-900">
+            <h3 className="font-heading font-semibold text-ink-900">
               {office.name}
             </h3>
-            <p className="text-xs text-gray-500 mt-0.5">{office.address}</p>
+            <p className="text-xs text-stone-500 mt-0.5">{office.address}</p>
             {office.department && (
               <Badge variant="default" className="mt-2">
                 {office.department}
               </Badge>
             )}
             {office.services && office.services.length > 0 && (
-              <p className="text-xs text-gray-500 mt-1.5 line-clamp-1">
+              <p className="text-xs text-stone-500 mt-1.5 line-clamp-1">
                 {office.services.slice(0, 3).join(" · ")}
               </p>
             )}
@@ -32,7 +32,7 @@ export function OfficeCard({ office }: OfficeCardProps) {
           {office.provenance && <TrustBadge provenance={office.provenance} />}
         </div>
         {office.phone && (
-          <p className="text-sm text-gray-700 mt-2 font-data">{office.phone}</p>
+          <p className="text-sm text-stone-700 mt-2 font-data">{office.phone}</p>
         )}
       </Card>
     </Link>

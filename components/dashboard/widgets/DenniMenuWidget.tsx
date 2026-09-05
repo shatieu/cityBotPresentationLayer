@@ -18,11 +18,11 @@ const categoryLabels: Record<string, string> = {
 };
 
 const categoryColors: Record<string, string> = {
-  soup: "border-l-amber-300",
-  main: "border-l-green-500",
-  dessert: "border-l-amber-500",
-  drink: "border-l-green-300",
-  other: "border-l-gray-300",
+  soup: "border-l-wine-300",
+  main: "border-l-gold-500",
+  dessert: "border-l-wine-500",
+  drink: "border-l-gold-300",
+  other: "border-l-stone-300",
 };
 
 export function DenniMenuWidget() {
@@ -45,7 +45,7 @@ export function DenniMenuWidget() {
       icon="Utensils"
       href="/gastro/denni-menu"
       size="large"
-      accent="green"
+      accent="gold"
       loading={loading}
       expandable
       collapsedCount={COLLAPSED}
@@ -59,12 +59,12 @@ export function DenniMenuWidget() {
           return (
             <div
               key={menu.place_id || idx}
-              className={`bg-green-50/40 rounded-base p-3 ${idx >= COLLAPSED ? "hidden peer-[.expanded]:block" : ""}`}
+              className={`bg-gold-50/40 rounded-base p-3 ${idx >= COLLAPSED ? "hidden peer-[.expanded]:block" : ""}`}
             >
               <div className="flex items-center justify-between mb-2">
                 <Link
                   href={placeSlug ? `/gastro/${placeSlug}` : "#"}
-                  className="font-heading text-sm font-bold text-green-900 hover:text-green-700 transition-colors"
+                  className="font-heading text-sm font-bold text-ink-900 hover:text-gold-700 transition-colors"
                 >
                   {placeName}
                 </Link>
@@ -74,15 +74,15 @@ export function DenniMenuWidget() {
                 {menu.items.slice(0, 4).map((item, i) => (
                   <li
                     key={i}
-                    className={`flex items-baseline justify-between gap-2 text-sm pl-2 border-l-2 ${categoryColors[item.category] ?? "border-l-gray-200"}`}
+                    className={`flex items-baseline justify-between gap-2 text-sm pl-2 border-l-2 ${categoryColors[item.category] ?? "border-l-stone-300"}`}
                   >
-                    <span className="text-gray-900 truncate">
-                      <span className="text-xs text-gray-400 mr-1.5">
+                    <span className="text-ink-900 truncate">
+                      <span className="text-xs text-stone-500 mr-1.5">
                         {categoryLabels[item.category] ?? ""}
                       </span>
                       {item.name}
                     </span>
-                    <PriceTag price={item.price} className="flex-shrink-0 text-xs font-data font-bold text-amber-700" />
+                    <PriceTag price={item.price} className="flex-shrink-0 text-xs font-data font-bold text-wine-700" />
                   </li>
                 ))}
               </ul>

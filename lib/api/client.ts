@@ -1,8 +1,31 @@
+import { isSupabaseConfigured } from "@/lib/supabase/client";
+
 const USE_MOCKS = process.env.USE_MOCKS === "true" || process.env.NEXT_PUBLIC_USE_MOCKS === "true";
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "/api/v1";
+// Only a real, explicitly-configured backend URL counts as "live" for the
+// generic REST fetch path below. The default "/api/v1" is a placeholder for
+// a REST layer that doesn't exist in this repo (see ARCHITECTURE.md — this
+// presentation layer has no bundled backend); domains not yet migrated to
+// direct Supabase queries (menus, cinema, theatre, activities, classifieds,
+// news, map, dashboard — see each lib/api/*.ts) would otherwise crash
+// whenever USE_MOCKS=false. Falling back to mocks for those keeps them
+// working, per the existing "mocks are the default fallback" architecture.
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL;
+
+/**
+ * Gate for the domain modules in lib/api/*.ts that have a real Supabase
+ * table backing them (places, wineries, events, businesses, offices — see
+ * ../../../cityBotIngestionLayer/docs/DATA_ARCHITECTURE.md for what's
+ * actually seeded). Live data is used only when USE_MOCKS is explicitly
+ * false *and* the Supabase env vars are configured — otherwise mocks stay
+ * the default fallback, per the existing mock/live architecture (this repo
+ * has no bundled backend of its own).
+ */
+export function isLiveDataEnabled(): boolean {
+  return !USE_MOCKS && isSupabaseConfigured();
+}
 
 export async function fetchApi<T>(path: string, params?: Record<string, string>): Promise<T> {
-  if (USE_MOCKS) {
+  if (USE_MOCKS || !API_BASE) {
     return fetchMock<T>(path, params);
   }
 

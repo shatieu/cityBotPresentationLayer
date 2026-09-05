@@ -18,15 +18,15 @@ export function Tabs({ tabs, defaultTab, children }: TabsProps) {
 
   return (
     <div>
-      <div className="flex border-b border-gray-100 mb-4 overflow-x-auto">
+      <div className="flex border-b border-stone-100 mb-4 overflow-x-auto">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActive(tab.id)}
             className={`px-4 py-2.5 text-sm font-medium whitespace-nowrap transition-colors ${
               active === tab.id
-                ? "text-green-700 border-b-2 border-green-700"
-                : "text-gray-700 hover:text-green-700"
+                ? "text-gold-700 border-b-2 border-gold-700"
+                : "text-stone-700 hover:text-gold-700"
             }`}
           >
             {tab.label}

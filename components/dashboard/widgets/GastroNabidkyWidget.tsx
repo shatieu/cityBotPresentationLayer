@@ -16,10 +16,10 @@ interface GastroOffer {
 }
 
 const typeColors: Record<string, string> = {
-  discount: "bg-green-100 text-green-700",
-  happy_hour: "bg-amber-100 text-amber-700",
-  deal: "bg-green-100 text-green-700",
-  event: "bg-amber-100 text-amber-700",
+  discount: "bg-gold-100 text-gold-700",
+  happy_hour: "bg-wine-100 text-wine-700",
+  deal: "bg-gold-100 text-gold-700",
+  event: "bg-wine-100 text-wine-700",
 };
 
 const typeLabels: Record<string, string> = {
@@ -53,7 +53,7 @@ export function GastroNabidkyWidget() {
       icon="ShoppingBag"
       href="/gastro"
       size="medium"
-      accent="green"
+      accent="gold"
       loading={loading}
     >
       <div className="space-y-3">
@@ -67,20 +67,20 @@ export function GastroNabidkyWidget() {
               className="group block"
             >
               <div className="flex items-start gap-3">
-                <div className="w-8 h-8 rounded-base bg-green-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <ShoppingBag size={14} className="text-green-700" />
+                <div className="w-8 h-8 rounded-base bg-gold-100 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <ShoppingBag size={14} className="text-gold-700" />
                 </div>
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-2">
-                    <p className="text-sm font-medium text-gray-900 group-hover:text-green-700 transition-colors truncate">
+                    <p className="text-sm font-medium text-ink-900 group-hover:text-gold-700 transition-colors truncate">
                       {offer.title}
                     </p>
-                    <span className={`inline-flex items-center text-[10px] font-medium px-1.5 py-0.5 rounded-sm flex-shrink-0 ${typeColors[offer.type] ?? "bg-gray-100 text-gray-600"}`}>
+                    <span className={`inline-flex items-center text-[10px] font-medium px-1.5 py-0.5 rounded-sm flex-shrink-0 ${typeColors[offer.type] ?? "bg-stone-100 text-gray-600"}`}>
                       {typeLabels[offer.type] ?? offer.type}
                     </span>
                   </div>
-                  <p className="text-xs text-gray-500 mt-0.5">{offer.place_name}</p>
-                  <p className="text-xs text-gray-400 mt-0.5">
+                  <p className="text-xs text-stone-500 mt-0.5">{offer.place_name}</p>
+                  <p className="text-xs text-stone-500 mt-0.5">
                     {daysLeft > 0 ? `Platí ještě ${daysLeft} dní` : "Poslední den!"}
                   </p>
                 </div>
@@ -89,7 +89,7 @@ export function GastroNabidkyWidget() {
           );
         })}
         {offers.length === 0 && !loading && (
-          <p className="text-sm text-gray-500">Žádné aktuální nabídky.</p>
+          <p className="text-sm text-stone-500">Žádné aktuální nabídky.</p>
         )}
       </div>
     </WidgetCard>

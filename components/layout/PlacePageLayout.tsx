@@ -46,15 +46,15 @@ export function PlacePageLayout({ place, children }: PlacePageLayoutProps) {
             {typeLabels[place.type] || place.type}
           </Badge>
         </div>
-        <h1 className="font-heading text-2xl font-bold text-green-900 mb-2">
+        <h1 className="font-heading text-2xl font-bold text-ink-900 mb-2">
           {place.name}
         </h1>
         {place.address && (
-          <p className="text-sm text-gray-700">{place.address}</p>
+          <p className="text-sm text-stone-700">{place.address}</p>
         )}
         {place.phone && (
-          <p className="text-sm text-gray-700 mt-1">
-            Tel: <a href={`tel:${place.phone}`} className="text-green-700">{place.phone}</a>
+          <p className="text-sm text-stone-700 mt-1">
+            Tel: <a href={`tel:${place.phone}`} className="text-gold-700">{place.phone}</a>
           </p>
         )}
         {place.website && (
@@ -63,7 +63,7 @@ export function PlacePageLayout({ place, children }: PlacePageLayoutProps) {
               href={place.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green-700 hover:text-green-500 transition-colors"
+              className="text-gold-700 hover:text-gold-500 transition-colors"
             >
               {place.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}
             </a>
@@ -72,7 +72,7 @@ export function PlacePageLayout({ place, children }: PlacePageLayoutProps) {
       </div>
 
       {place.description && (
-        <p className="text-sm text-gray-900 mb-6 leading-relaxed">
+        <p className="text-sm text-ink-900 mb-6 leading-relaxed">
           {place.description}
         </p>
       )}
@@ -88,7 +88,7 @@ export function PlacePageLayout({ place, children }: PlacePageLayoutProps) {
           {/* Opening hours */}
           {place.opening_hours && (
             <div className="bg-white rounded-base shadow-card p-4">
-              <h3 className="font-heading font-semibold text-green-900 mb-3">
+              <h3 className="font-heading font-semibold text-ink-900 mb-3">
                 Otevírací doba
               </h3>
               <dl className="space-y-1">
@@ -97,8 +97,8 @@ export function PlacePageLayout({ place, children }: PlacePageLayoutProps) {
                   if (!value) return null;
                   return (
                     <div key={day} className="flex justify-between text-sm">
-                      <dt className="text-gray-700">{dayLabels[day]}</dt>
-                      <dd className="font-data text-gray-900">{value}</dd>
+                      <dt className="text-stone-700">{dayLabels[day]}</dt>
+                      <dd className="font-data text-ink-900">{value}</dd>
                     </div>
                   );
                 })}
@@ -109,7 +109,7 @@ export function PlacePageLayout({ place, children }: PlacePageLayoutProps) {
           {/* External links */}
           {place.links && Object.keys(place.links).length > 0 && (
             <div className="bg-white rounded-base shadow-card p-4">
-              <h3 className="font-heading font-semibold text-green-900 mb-3">
+              <h3 className="font-heading font-semibold text-ink-900 mb-3">
                 Odkazy
               </h3>
               <ul className="space-y-1.5">
@@ -119,7 +119,7 @@ export function PlacePageLayout({ place, children }: PlacePageLayoutProps) {
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-green-700 hover:text-green-500 transition-colors"
+                      className="text-sm text-gold-700 hover:text-gold-500 transition-colors"
                     >
                       {label}
                     </a>

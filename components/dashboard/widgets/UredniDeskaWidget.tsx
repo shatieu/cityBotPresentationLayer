@@ -38,17 +38,17 @@ export function UredniDeskaWidget() {
       <div className="space-y-2.5">
         {notices.map((n) => (
           <div key={n.id} className="flex items-start gap-2.5">
-            <FileText size={14} className="text-gray-400 mt-0.5 flex-shrink-0" />
+            <FileText size={14} className="text-stone-500 mt-0.5 flex-shrink-0" />
             <div className="min-w-0">
-              <p className="text-sm text-gray-900 line-clamp-2 leading-snug">{n.title}</p>
-              <p className="text-xs text-gray-400 mt-0.5">
+              <p className="text-sm text-ink-900 line-clamp-2 leading-snug">{n.title}</p>
+              <p className="text-xs text-stone-500 mt-0.5">
                 {formatCzechDate(n.published_at)}
               </p>
             </div>
           </div>
         ))}
         {notices.length === 0 && !loading && (
-          <p className="text-sm text-gray-500">Žádné oznámení.</p>
+          <p className="text-sm text-stone-500">Žádné oznámení.</p>
         )}
       </div>
     </WidgetCard>

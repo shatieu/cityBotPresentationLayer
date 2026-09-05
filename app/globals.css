@@ -7,33 +7,36 @@
    ================================================================= */
 
 @theme {
-  /* --- Colors: Green (primary) --- */
-  --color-green-900: #2D3A1E;
-  --color-green-700: #4A6B2A;
-  --color-green-500: #5E8A35;
-  --color-green-300: #A3C47D;
-  --color-green-100: #E4EDDA;
-  --color-green-50:  #F2F6EE;
+  /* --- Colors: Gold (primary) — sandstone tower stone + Renaissance   */
+  /* burgher-house ochre + September vineyard light                    */
+  --color-gold-900: #4A3610;
+  --color-gold-700: #8A6416;
+  --color-gold-500: #AD7A12;
+  --color-gold-300: #D9B65C;
+  --color-gold-100: #F0E0B8;
+  --color-gold-50:  #FAF3E1;
 
-  /* --- Colors: Amber (accent) --- */
-  --color-amber-700: #B8860B;
-  --color-amber-500: #D4A024;
-  --color-amber-300: #E8C965;
-  --color-amber-100: #FDF4DC;
+  /* --- Colors: Wine (secondary accent) — Znojmo cellar burgundy,      */
+  /* used sparingly: wine-domain tags, ratings, price emphasis          */
+  --color-wine-700: #7A2E3A;
+  --color-wine-500: #9C4152;
+  --color-wine-300: #D99BA8;
+  --color-wine-100: #F5E3E6;
 
-  /* --- Colors: Warm neutrals --- */
-  --color-gray-900:  #2C2A26;
-  --color-gray-700:  #5C5850;
-  --color-gray-500:  #8A857C;
-  --color-gray-300:  #C4BFB6;
-  --color-gray-100:  #EDEAE5;
-  --color-surface:   #F5F3EF;
-  --color-white:     #FEFEFE;
+  /* --- Colors: Stone (neutrals) — Znojmo limestone/sandstone scale    */
+  --color-ink-900:   #2A2018;
+  --color-stone-700: #5B5039;
+  --color-stone-500: #8C8064;
+  --color-stone-300: #D3C4A0;
+  --color-stone-100: #ECE2CC;
+  --color-surface:   #F7F2E7;
+  --color-white:     #FFFCF6;
 
   /* --- Colors: Semantic --- */
-  --color-success:   #5E8A35;
-  --color-warning:   #D4A024;
-  --color-error:     #C4513A;
+  --color-success:   #3F6B46; /* Podyjí gorge forest green — small "open/verified" indicators only, never a UI family */
+  --color-warning:   #AD7A12; /* = gold-500 */
+  --color-error:     #B8503A; /* = terracotta-700, roof-tile red */
+  --color-info:      #8A6416; /* = gold-700 */
 
   /* --- Typography --- */
   --font-heading: "Space Grotesk", system-ui, sans-serif;
@@ -44,18 +47,16 @@
   --radius-sm:   2px;
   --radius-base: 4px;
 
-  /* --- Colors: Terracotta (accent) --- */
-  --color-terracotta-700: #C4513A;
-  --color-terracotta-500: #D4715A;
-  --color-terracotta-100: #FBEAE6;
+  /* --- Colors: Terracotta — roof-tile red family (shares --color-error) */
+  --color-terracotta-700: #B8503A;
+  --color-terracotta-500: #C97456;
+  --color-terracotta-100: #F5E1D8;
 
   /* --- Shadows --- */
-  --shadow-card:       0 1px 3px rgba(44, 42, 38, 0.08), 0 1px 2px rgba(44, 42, 38, 0.04);
-  --shadow-card-hover: 0 4px 12px rgba(44, 42, 38, 0.10), 0 2px 4px rgba(44, 42, 38, 0.06);
-  --shadow-card-lift:  0 8px 24px rgba(44, 42, 38, 0.12), 0 4px 8px rgba(44, 42, 38, 0.06);
-  --shadow-nav:        0 1px 2px rgba(44, 42, 38, 0.06);
-  --shadow-glass:      0 2px 8px rgba(44, 42, 38, 0.06), 0 0 1px rgba(44, 42, 38, 0.08);
-  --shadow-glass-hover: 0 8px 24px rgba(44, 42, 38, 0.10), 0 2px 6px rgba(44, 42, 38, 0.06);
+  --shadow-card:       0 1px 3px rgba(42, 32, 24, 0.10), 0 1px 2px rgba(42, 32, 24, 0.05);
+  --shadow-card-hover: 0 4px 12px rgba(42, 32, 24, 0.12), 0 2px 4px rgba(42, 32, 24, 0.06);
+  --shadow-card-lift:  0 8px 24px rgba(42, 32, 24, 0.14), 0 4px 8px rgba(42, 32, 24, 0.07);
+  --shadow-nav:        0 1px 2px rgba(42, 32, 24, 0.08);
 
   /* --- Spacing (extends Tailwind defaults) --- */
   --spacing-section: 48px;
@@ -69,6 +70,6 @@
 
 body {
   background-color: var(--color-surface);
-  color: var(--color-gray-900);
+  color: var(--color-ink-900);
   font-family: var(--font-body);
 }

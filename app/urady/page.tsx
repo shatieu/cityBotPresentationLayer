@@ -39,7 +39,7 @@ export default function UradyPage() {
 
   return (
     <PageContainer className="py-6">
-      <h1 className="font-heading text-2xl font-bold text-green-900 mb-4">
+      <h1 className="font-heading text-2xl font-bold text-ink-900 mb-4">
         Úřady
       </h1>
 
@@ -71,10 +71,10 @@ export default function UradyPage() {
                   <Card key={notice.id}>
                     <div className="flex items-start justify-between gap-2">
                       <div className="min-w-0">
-                        <h3 className="font-heading font-semibold text-green-900">
+                        <h3 className="font-heading font-semibold text-ink-900">
                           {notice.title}
                         </h3>
-                        <p className="text-xs text-gray-500 mt-1">
+                        <p className="text-xs text-stone-500 mt-1">
                           Zveřejněno: {formatCzechDate(notice.published_at)}
                           {notice.expires_at && ` · Platnost do: ${formatCzechDate(notice.expires_at)}`}
                         </p>
@@ -84,7 +84,7 @@ export default function UradyPage() {
                           href={notice.document_url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-sm text-green-700 hover:text-green-500 font-medium whitespace-nowrap"
+                          className="text-sm text-gold-700 hover:text-gold-500 font-medium whitespace-nowrap"
                         >
                           PDF
                         </a>
@@ -102,22 +102,22 @@ export default function UradyPage() {
                 <Card key={session.id}>
                   <div className="flex items-start justify-between gap-2">
                     <div className="min-w-0">
-                      <h3 className="font-heading font-semibold text-green-900">
+                      <h3 className="font-heading font-semibold text-ink-900">
                         {session.title}
                       </h3>
-                      <p className="text-sm text-gray-700 mt-1">
+                      <p className="text-sm text-stone-700 mt-1">
                         <time dateTime={session.date}>
                           {formatCzechDate(session.date)}
                         </time>
                       </p>
                       {session.summary && (
-                        <p className="text-sm text-gray-500 mt-1 line-clamp-2">
+                        <p className="text-sm text-stone-500 mt-1 line-clamp-2">
                           {session.summary}
                         </p>
                       )}
                     </div>
                     <div className="flex flex-col items-end gap-1">
-                      <Badge variant={session.minutes_url ? "green" : "gray"}>
+                      <Badge variant={session.minutes_url ? "gold" : "stone"}>
                         {session.minutes_url ? "Proběhlo" : "Nadcházející"}
                       </Badge>
                       {session.minutes_url && (
@@ -125,7 +125,7 @@ export default function UradyPage() {
                           href={session.minutes_url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-xs text-green-700 hover:text-green-500"
+                          className="text-xs text-gold-700 hover:text-gold-500"
                         >
                           Zápis
                         </a>

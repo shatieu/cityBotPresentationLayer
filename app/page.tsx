@@ -52,10 +52,10 @@ export default async function HomePage() {
 
       {/* Date + heading */}
       <section className="mb-section">
-        <h1 className="font-heading text-2xl md:text-3xl font-bold text-green-900 mb-1">
+        <h1 className="font-heading text-2xl md:text-3xl font-bold text-ink-900 mb-1">
           Co dnes ve Znojmě?
         </h1>
-        <p className="text-sm text-gray-700">
+        <p className="text-sm text-stone-700">
           {formatCzechDateFull(new Date())}
         </p>
       </section>
@@ -102,10 +102,10 @@ export default async function HomePage() {
 
       {/* CTA */}
       <section className="mb-section text-center py-8">
-        <h2 className="font-heading text-xl font-semibold text-green-900 mb-2">
+        <h2 className="font-heading text-xl font-semibold text-ink-900 mb-2">
           Přizpůsobte si Znojmo
         </h2>
-        <p className="text-sm text-gray-700 mb-4 max-w-md mx-auto">
+        <p className="text-sm text-stone-700 mb-4 max-w-md mx-auto">
           Vytvořte si účet a nastavte si dashboard podle svých zájmů —
           oblíbené restaurace, události a víc.
         </p>

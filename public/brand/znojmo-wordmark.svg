@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 56" width="216" height="56" role="img" aria-label="Znojmo">
+  <!-- Mark (town hall tower + Rotunda) + wordmark lockup for the header -->
+  <g transform="translate(2,4)">
+    <rect x="6" y="40" width="36" height="2.4" rx="1" fill="#8A6416"/>
+    <rect x="10.5" y="14" width="5.4" height="26.4" fill="#2A2018"/>
+    <polygon points="8.5,14 21,14 14.75,4.5" fill="#2A2018"/>
+    <circle cx="14.75" cy="3.5" r="1.6" fill="#8A6416"/>
+    <circle cx="31.5" cy="23.2" r="8.6" fill="#2A2018"/>
+    <rect x="24.75" y="30.4" width="13.5" height="10" fill="#2A2018"/>
+  </g>
+  <text x="58" y="38" font-family="'Space Grotesk',system-ui,sans-serif" font-size="26" font-weight="700" fill="#2A2018">Znojmo</text>
+</svg>

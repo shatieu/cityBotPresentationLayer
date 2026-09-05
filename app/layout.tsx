@@ -38,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs" className={`${spaceGrotesk.variable} ${outfit.variable} ${jetbrainsMono.variable}`}>
-      <body className="bg-surface text-gray-900 font-body antialiased">
+      <body className="bg-surface text-ink-900 font-body antialiased">
         <AuthProvider>
           <Header />
           <main className="min-h-[calc(100vh-56px)]">

@@ -36,7 +36,7 @@ export function KinoDnesWidget() {
       icon="Film"
       href="/kultura/kino"
       size="medium"
-      accent="green"
+      accent="gold"
       loading={loading}
       expandable
       collapsedCount={MAX_FILMS}
@@ -48,20 +48,20 @@ export function KinoDnesWidget() {
           const initials = title.split(" ").map(w => w[0]).join("").slice(0, 2).toUpperCase();
           return (
             <div key={title} className="flex items-start gap-3">
-              <div className="w-9 h-12 rounded-sm bg-green-100 flex items-center justify-center flex-shrink-0">
-                <span className="font-heading text-xs font-bold text-green-700">{initials}</span>
+              <div className="w-9 h-12 rounded-sm bg-gold-100 flex items-center justify-center flex-shrink-0">
+                <span className="font-heading text-xs font-bold text-gold-700">{initials}</span>
               </div>
               <div className="min-w-0 flex-1">
-                <p className="text-sm font-medium text-gray-900 truncate">{title}</p>
+                <p className="text-sm font-medium text-ink-900 truncate">{title}</p>
                 <div className="flex items-center gap-2 mt-1 flex-wrap">
                   {first.language && (
-                    <Badge variant="gray">{first.language}</Badge>
+                    <Badge variant="stone">{first.language}</Badge>
                   )}
                   <div className="flex flex-wrap gap-1">
                     {sts.map((st) => (
                       <span
                         key={st.id || st.time}
-                        className="font-data text-xs font-medium text-green-700 bg-green-50 px-1.5 py-0.5 rounded-sm"
+                        className="font-data text-xs font-medium text-gold-700 bg-gold-50 px-1.5 py-0.5 rounded-sm"
                       >
                         {st.time}
                       </span>
@@ -73,7 +73,7 @@ export function KinoDnesWidget() {
           );
         })}
         {films.length === 0 && !loading && (
-          <p className="text-sm text-gray-500">Dnes se nehraje.</p>
+          <p className="text-sm text-stone-500">Dnes se nehraje.</p>
         )}
       </div>
     </WidgetCard>

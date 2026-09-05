@@ -32,7 +32,7 @@ export default function InzercePage() {
   return (
     <PageContainer className="py-6">
       <div className="flex items-start justify-between gap-4 mb-4">
-        <h1 className="font-heading text-2xl font-bold text-green-900">
+        <h1 className="font-heading text-2xl font-bold text-ink-900">
           Inzerce
         </h1>
         <Link href="/inzerce/pridat">

@@ -27,12 +27,12 @@ export function ChatInput({ onSend, disabled }: ChatInputProps) {
         onChange={(e) => setValue(e.target.value)}
         placeholder="Napište zprávu..."
         disabled={disabled}
-        className="flex-1 rounded-base border border-gray-200 px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-green-300 focus:outline-none focus:ring-1 focus:ring-green-300 disabled:opacity-50"
+        className="flex-1 rounded-base border border-stone-300 px-3 py-2 text-sm text-ink-900 placeholder:text-stone-500 focus:border-gold-300 focus:outline-none focus:ring-1 focus:ring-gold-300 disabled:opacity-50"
       />
       <button
         type="submit"
         disabled={disabled || !value.trim()}
-        className="inline-flex items-center justify-center w-10 h-10 rounded-base bg-green-700 text-white hover:bg-green-500 disabled:opacity-50 transition-colors"
+        className="inline-flex items-center justify-center w-10 h-10 rounded-base bg-gold-700 text-white hover:bg-gold-500 disabled:opacity-50 transition-colors"
         aria-label="Odeslat"
       >
         <Send size={16} />

@@ -11,8 +11,8 @@ interface MapViewProps {
 const MapViewInner = dynamic(() => import("./MapViewInner"), {
   ssr: false,
   loading: () => (
-    <div className="w-full h-full bg-gray-100 flex items-center justify-center">
-      <p className="text-sm text-gray-500">Načítání mapy...</p>
+    <div className="w-full h-full bg-stone-100 flex items-center justify-center">
+      <p className="text-sm text-stone-500">Načítání mapy...</p>
     </div>
   ),
 });

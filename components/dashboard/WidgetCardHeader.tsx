@@ -13,10 +13,10 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; className?: s
 };
 
 const accentIconBg: Record<WidgetAccent, string> = {
-  green: "bg-green-100 text-green-700",
-  amber: "bg-amber-100 text-amber-700",
+  gold: "bg-gold-100 text-gold-700",
+  wine: "bg-wine-100 text-wine-700",
   terracotta: "bg-terracotta-100 text-terracotta-700",
-  neutral: "bg-gray-100 text-gray-700",
+  neutral: "bg-stone-100 text-stone-700",
 };
 
 interface WidgetCardHeaderProps {
@@ -26,7 +26,7 @@ interface WidgetCardHeaderProps {
   accent?: WidgetAccent;
 }
 
-export function WidgetCardHeader({ title, icon, href, accent = "green" }: WidgetCardHeaderProps) {
+export function WidgetCardHeader({ title, icon, href, accent = "gold" }: WidgetCardHeaderProps) {
   const Icon = iconMap[icon];
 
   return (
@@ -37,14 +37,14 @@ export function WidgetCardHeader({ title, icon, href, accent = "green" }: Widget
             <Icon size={15} />
           </div>
         )}
-        <h3 className="font-heading font-bold text-sm text-green-900">
+        <h3 className="font-heading font-bold text-sm text-ink-900">
           {title}
         </h3>
       </div>
       {href !== "#" && (
         <Link
           href={href}
-          className="inline-flex items-center gap-1 text-xs font-medium text-gray-400 hover:text-green-700 bg-transparent hover:bg-green-50 px-2 py-1 rounded-base transition-all"
+          className="inline-flex items-center gap-1 text-xs font-medium text-stone-500 hover:text-gold-700 bg-transparent hover:bg-gold-50 px-2 py-1 rounded-base transition-all"
         >
           Zobrazit vše
           <ArrowRight size={12} />

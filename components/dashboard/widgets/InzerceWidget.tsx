@@ -13,8 +13,8 @@ const adTypeLabels: Record<string, string> = {
 };
 
 const adTypeColors: Record<string, string> = {
-  offer: "bg-green-100 text-green-700",
-  request: "bg-amber-100 text-amber-700",
+  offer: "bg-gold-100 text-gold-700",
+  request: "bg-wine-100 text-wine-700",
   job: "bg-terracotta-100 text-terracotta-700",
 };
 
@@ -47,23 +47,23 @@ export function InzerceWidget() {
         {ads.map((ad) => (
           <Link key={ad.id} href={`/inzerce/${ad.id}`} className="block group">
             <div className="flex items-start justify-between gap-2">
-              <p className="text-sm font-medium text-gray-900 group-hover:text-green-700 transition-colors truncate">
+              <p className="text-sm font-medium text-ink-900 group-hover:text-gold-700 transition-colors truncate">
                 {ad.title}
               </p>
-              <span className={`inline-flex items-center text-[10px] font-medium px-1.5 py-0.5 rounded-sm flex-shrink-0 ${adTypeColors[ad.ad_type] ?? "bg-gray-100 text-gray-600"}`}>
+              <span className={`inline-flex items-center text-[10px] font-medium px-1.5 py-0.5 rounded-sm flex-shrink-0 ${adTypeColors[ad.ad_type] ?? "bg-stone-100 text-gray-600"}`}>
                 {adTypeLabels[ad.ad_type] ?? ad.ad_type}
               </span>
             </div>
-            <p className="text-xs text-gray-400 mt-0.5">
+            <p className="text-xs text-stone-500 mt-0.5">
               {formatRelativeDate(ad.created_at)}
               {ad.price && (
-                <span className="font-data font-medium text-amber-700 ml-1.5">{ad.price}</span>
+                <span className="font-data font-medium text-wine-700 ml-1.5">{ad.price}</span>
               )}
             </p>
           </Link>
         ))}
         {ads.length === 0 && !loading && (
-          <p className="text-sm text-gray-500">Žádné inzeráty.</p>
+          <p className="text-sm text-stone-500">Žádné inzeráty.</p>
         )}
       </div>
     </WidgetCard>

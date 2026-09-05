@@ -23,39 +23,39 @@ export default async function ClassifiedDetailPage({ params }: Props) {
     <PageContainer className="py-6">
       <div className="max-w-2xl">
         <div className="flex items-center gap-2 mb-3">
-          <Badge variant="green">
+          <Badge variant="gold">
             {adTypeLabels[ad.ad_type] ?? ad.ad_type}
           </Badge>
-          {ad.category && <Badge variant="gray">{ad.category}</Badge>}
+          {ad.category && <Badge variant="stone">{ad.category}</Badge>}
           {ad.provenance && <TrustBadge provenance={ad.provenance} />}
         </div>
 
-        <h1 className="font-heading text-2xl font-bold text-green-900 mb-2">
+        <h1 className="font-heading text-2xl font-bold text-ink-900 mb-2">
           {ad.title}
         </h1>
 
-        <div className="flex items-center gap-3 text-sm text-gray-700 mb-6">
+        <div className="flex items-center gap-3 text-sm text-stone-700 mb-6">
           {ad.price && (
-            <span className="font-data text-amber-700">{ad.price}</span>
+            <span className="font-data text-wine-700">{ad.price}</span>
           )}
           {ad.location && <span>{ad.location}</span>}
-          <span className="text-gray-500">
+          <span className="text-stone-500">
             {formatCzechDateFull(ad.created_at)}
           </span>
         </div>
 
         {ad.description && (
-          <div className="text-sm text-gray-900 leading-relaxed mb-6 whitespace-pre-line">
+          <div className="text-sm text-ink-900 leading-relaxed mb-6 whitespace-pre-line">
             {ad.description}
           </div>
         )}
 
         {ad.contact && (
           <div className="bg-white rounded-base shadow-card p-4">
-            <h2 className="font-heading font-semibold text-green-900 mb-2">
+            <h2 className="font-heading font-semibold text-ink-900 mb-2">
               Kontakt
             </h2>
-            <p className="text-sm text-gray-700">{ad.contact}</p>
+            <p className="text-sm text-stone-700">{ad.contact}</p>
           </div>
         )}
       </div>

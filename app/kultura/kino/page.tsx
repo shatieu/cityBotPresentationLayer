@@ -16,10 +16,10 @@ export default async function KinoPage() {
 
   return (
     <PageContainer className="py-6">
-      <h1 className="font-heading text-2xl font-bold text-green-900 mb-1">
+      <h1 className="font-heading text-2xl font-bold text-ink-900 mb-1">
         Kino
       </h1>
-      <p className="text-sm text-gray-700 mb-6">
+      <p className="text-sm text-stone-700 mb-6">
         Dnešní program v Kině Svět Znojmo
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

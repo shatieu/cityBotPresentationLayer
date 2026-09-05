@@ -1,12 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="480" viewBox="0 0 1120 480">
-  <rect width="1120" height="480" fill="#FDF4DC"/>
-  <defs>
-    <linearGradient id="grad2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" style="stop-color:#FDF4DC;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#E8C965;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="1120" height="480" fill="url(#grad2)"/>
-  <text x="560" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="32" font-weight="600" fill="#B8860B">Vinobraní</text>
-  <text x="560" y="270" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#5C5850">Znojemská vinařská tradice</text>
+  <!-- flat, non-photographic placeholder: terraced vineyard hillside (VOC Znojmo wine country) -->
+  <rect width="1120" height="480" fill="#FAF3E1"/>
+
+  <!-- receding terrace bands, flat solid fills (no gradient blend) -->
+  <rect x="0" y="120" width="1120" height="52" fill="#ECE2CC"/>
+  <rect x="0" y="172" width="1120" height="52" fill="#F0E0B8"/>
+  <rect x="0" y="224" width="1120" height="52" fill="#D9B65C"/>
+  <rect x="0" y="276" width="1120" height="52" fill="#F0E0B8"/>
+  <rect x="0" y="328" width="1120" height="52" fill="#D9B65C"/>
+  <rect x="0" y="380" width="1120" height="52" fill="#F0E0B8"/>
+  <rect x="0" y="432" width="1120" height="48" fill="#D9B65C"/>
+
+  <!-- vine rows: short repeating strokes across each terrace -->
+  <g stroke="#7A2E3A" stroke-width="3" opacity="0.55">
+    <path d="M20,146 h60 M110,146 h60 M200,146 h60 M290,146 h60 M380,146 h60 M470,146 h60 M560,146 h60 M650,146 h60 M740,146 h60 M830,146 h60 M920,146 h60 M1010,146 h60"/>
+    <path d="M20,250 h60 M110,250 h60 M200,250 h60 M290,250 h60 M380,250 h60 M470,250 h60 M560,250 h60 M650,250 h60 M740,250 h60 M830,250 h60 M920,250 h60 M1010,250 h60"/>
+    <path d="M20,354 h60 M110,354 h60 M200,354 h60 M290,354 h60 M380,354 h60 M470,354 h60 M560,354 h60 M650,354 h60 M740,354 h60 M830,354 h60 M920,354 h60 M1010,354 h60"/>
+    <path d="M20,456 h60 M110,456 h60 M200,456 h60 M290,456 h60 M380,456 h60 M470,456 h60 M560,456 h60 M650,456 h60 M740,456 h60 M830,456 h60 M920,456 h60 M1010,456 h60"/>
+  </g>
+
+  <!-- sun over the ridge -->
+  <circle cx="150" cy="70" r="30" fill="#D9B65C"/>
+
+  <text x="1060" y="76" text-anchor="end" font-family="'Space Grotesk',system-ui,sans-serif" font-size="34" font-weight="700" fill="#7A2E3A">Víno a gastronomie</text>
+  <text x="1060" y="108" text-anchor="end" font-family="system-ui,sans-serif" font-size="17" fill="#5B5039">Vinařství a restaurace Znojemska</text>
 </svg>

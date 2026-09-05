@@ -23,10 +23,10 @@ export default function PrihlaseniPage() {
   return (
     <PageContainer className="py-12">
       <div className="max-w-sm mx-auto">
-        <h1 className="font-heading text-2xl font-bold text-green-900 text-center mb-2">
+        <h1 className="font-heading text-2xl font-bold text-ink-900 text-center mb-2">
           Přihlášení
         </h1>
-        <p className="text-sm text-gray-700 text-center mb-6">
+        <p className="text-sm text-stone-700 text-center mb-6">
           Přihlaste se a přizpůsobte si Znojmo podle sebe.
         </p>
 
@@ -47,7 +47,7 @@ export default function PrihlaseniPage() {
               Přihlásit se přes Facebook
             </Button>
           </div>
-          <p className="text-xs text-gray-500 text-center mt-4">
+          <p className="text-xs text-stone-500 text-center mt-4">
             V demo režimu se přihlásíte jako testovací uživatel.
           </p>
         </Card>

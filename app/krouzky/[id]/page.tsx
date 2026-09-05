@@ -35,41 +35,41 @@ export default async function ActivityDetailPage({ params }: Props) {
           {activity.provenance && <TrustBadge provenance={activity.provenance} />}
         </div>
 
-        <h1 className="font-heading text-2xl font-bold text-green-900 mb-2">
+        <h1 className="font-heading text-2xl font-bold text-ink-900 mb-2">
           {activity.title}
         </h1>
 
         <dl className="space-y-3 text-sm mt-4">
           {activity.schedule && (
             <div>
-              <dt className="text-gray-500">Rozvrh</dt>
-              <dd className="text-gray-900 font-medium">{activity.schedule}</dd>
+              <dt className="text-stone-500">Rozvrh</dt>
+              <dd className="text-ink-900 font-medium">{activity.schedule}</dd>
             </div>
           )}
           {activity.price && (
             <div>
-              <dt className="text-gray-500">Cena</dt>
-              <dd className="font-data text-amber-700">{activity.price}</dd>
+              <dt className="text-stone-500">Cena</dt>
+              <dd className="font-data text-wine-700">{activity.price}</dd>
             </div>
           )}
           {activity.contact && (
             <div>
-              <dt className="text-gray-500">Kontakt</dt>
-              <dd className="text-gray-900">{activity.contact}</dd>
+              <dt className="text-stone-500">Kontakt</dt>
+              <dd className="text-ink-900">{activity.contact}</dd>
             </div>
           )}
           {activity.place && (
             <div>
-              <dt className="text-gray-500">Místo</dt>
+              <dt className="text-stone-500">Místo</dt>
               <dd>
                 <Link
                   href={`/places/${activity.place.slug}`}
-                  className="text-green-700 hover:text-green-500 transition-colors"
+                  className="text-gold-700 hover:text-gold-500 transition-colors"
                 >
                   {activity.place.name}
                 </Link>
                 {activity.place.address && (
-                  <span className="text-gray-500"> · {activity.place.address}</span>
+                  <span className="text-stone-500"> · {activity.place.address}</span>
                 )}
               </dd>
             </div>
@@ -77,7 +77,7 @@ export default async function ActivityDetailPage({ params }: Props) {
         </dl>
 
         {activity.description && (
-          <div className="text-sm text-gray-900 leading-relaxed mt-6 whitespace-pre-line">
+          <div className="text-sm text-ink-900 leading-relaxed mt-6 whitespace-pre-line">
             {activity.description}
           </div>
         )}

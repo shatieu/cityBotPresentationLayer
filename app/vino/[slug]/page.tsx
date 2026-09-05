@@ -33,12 +33,12 @@ export default async function WineryPage({ params }: Props) {
         {/* Wine types */}
         {winery.wine_types && winery.wine_types.length > 0 && (
           <div>
-            <h2 className="font-heading text-lg font-semibold text-green-900 mb-3">
+            <h2 className="font-heading text-lg font-semibold text-ink-900 mb-3">
               Druhy vín
             </h2>
             <div className="flex flex-wrap gap-2">
               {winery.wine_types.map((type) => (
-                <Badge key={type} variant="amber">{type}</Badge>
+                <Badge key={type} variant="wine">{type}</Badge>
               ))}
             </div>
           </div>
@@ -48,7 +48,7 @@ export default async function WineryPage({ params }: Props) {
         {winery.tasting_schedule && (
           <div>
             <div className="flex items-center justify-between mb-3">
-              <h2 className="font-heading text-lg font-semibold text-green-900">
+              <h2 className="font-heading text-lg font-semibold text-ink-900">
                 Degustace
               </h2>
               {winery.tasting_schedule.provenance && (
@@ -61,17 +61,17 @@ export default async function WineryPage({ params }: Props) {
                   ([day, hours]) =>
                     hours && (
                       <div key={day} className="flex justify-between text-sm">
-                        <dt className="text-gray-700">
+                        <dt className="text-stone-700">
                           {dayLabels[day] ?? day}
                         </dt>
-                        <dd className="font-data text-gray-900">{hours}</dd>
+                        <dd className="font-data text-ink-900">{hours}</dd>
                       </div>
                     )
                 )}
               </dl>
             )}
             {winery.tasting_schedule.seasonal_note && (
-              <p className="text-sm text-gray-500 italic">
+              <p className="text-sm text-stone-500 italic">
                 {winery.tasting_schedule.seasonal_note}
               </p>
             )}

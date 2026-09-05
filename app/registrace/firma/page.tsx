@@ -6,10 +6,10 @@ import { BusinessRegistrationForm } from "@/components/forms/BusinessRegistratio
 export default function RegistraceFirmaPage() {
   return (
     <PageContainer className="py-6">
-      <h1 className="font-heading text-2xl font-bold text-green-900 mb-1">
+      <h1 className="font-heading text-2xl font-bold text-ink-900 mb-1">
         Registrace firmy
       </h1>
-      <p className="text-sm text-gray-700 mb-6">
+      <p className="text-sm text-stone-700 mb-6">
         Zaregistrujte svou firmu a začněte spravovat svůj profil na Znojmo
         City Hub.
       </p>

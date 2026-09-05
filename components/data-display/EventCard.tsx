@@ -17,13 +17,13 @@ const categoryLabels: Record<string, string> = {
   other: "Ostatní",
 };
 
-const categoryVariants: Record<string, "default" | "green" | "amber" | "gray"> = {
-  festivals: "amber",
-  concerts: "green",
-  wine: "amber",
+const categoryVariants: Record<string, "default" | "gold" | "wine" | "stone"> = {
+  festivals: "wine",
+  concerts: "gold",
+  wine: "wine",
   theatre: "default",
-  sport: "green",
-  other: "gray",
+  sport: "gold",
+  other: "stone",
 };
 
 export function EventCard({ event }: EventCardProps) {
@@ -32,10 +32,10 @@ export function EventCard({ event }: EventCardProps) {
       <Card>
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
-            <h3 className="font-heading font-semibold text-green-900">
+            <h3 className="font-heading font-semibold text-ink-900">
               {event.title}
             </h3>
-            <p className="text-sm text-gray-700 mt-1">
+            <p className="text-sm text-stone-700 mt-1">
               <time dateTime={event.date_start}>
                 {formatCzechDate(event.date_start)}
               </time>
@@ -43,13 +43,13 @@ export function EventCard({ event }: EventCardProps) {
               <span className="font-data">{formatTime(event.date_start)}</span>
             </p>
             {event.place && (
-              <p className="text-xs text-gray-500 mt-1">
+              <p className="text-xs text-stone-500 mt-1">
                 {event.place.name}
               </p>
             )}
           </div>
           {event.category && (
-            <Badge variant={categoryVariants[event.category] ?? "gray"}>
+            <Badge variant={categoryVariants[event.category] ?? "stone"}>
               {categoryLabels[event.category] ?? event.category}
             </Badge>
           )}

@@ -34,10 +34,10 @@ export default function FirmaDashboardPage() {
 
   return (
     <PageContainer className="py-6">
-      <h1 className="font-heading text-2xl font-bold text-green-900 mb-1">
+      <h1 className="font-heading text-2xl font-bold text-ink-900 mb-1">
         Dashboard firmy
       </h1>
-      <p className="text-sm text-gray-700 mb-6">
+      <p className="text-sm text-stone-700 mb-6">
         Spravujte vaši firmu na Znojmo City Hub
       </p>
 
@@ -46,14 +46,14 @@ export default function FirmaDashboardPage() {
         {stats.map((stat) => (
           <Card key={stat.label} hover={false}>
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-base bg-green-50 flex items-center justify-center flex-shrink-0">
-                <stat.icon size={20} className="text-green-700" />
+              <div className="w-10 h-10 rounded-base bg-gold-50 flex items-center justify-center flex-shrink-0">
+                <stat.icon size={20} className="text-gold-700" />
               </div>
               <div>
-                <p className="text-xs text-gray-500">{stat.label}</p>
+                <p className="text-xs text-stone-500">{stat.label}</p>
                 <div className="flex items-baseline gap-2">
-                  <span className="font-data text-xl font-bold text-green-900">{stat.value}</span>
-                  <span className="text-xs font-medium text-green-700">{stat.change}</span>
+                  <span className="font-data text-xl font-bold text-ink-900">{stat.value}</span>
+                  <span className="text-xs font-medium text-gold-700">{stat.change}</span>
                 </div>
               </div>
             </div>
@@ -62,20 +62,20 @@ export default function FirmaDashboardPage() {
       </div>
 
       {/* Quick actions */}
-      <h2 className="font-heading text-lg font-semibold text-green-900 mb-3">Rychlé akce</h2>
+      <h2 className="font-heading text-lg font-semibold text-ink-900 mb-3">Rychlé akce</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {quickActions.map((action) => (
           <Link key={action.href} href={action.href}>
             <Card className="h-full">
               <div className="flex items-start gap-3">
-                <div className="w-10 h-10 rounded-base bg-green-100 flex items-center justify-center flex-shrink-0">
-                  <action.icon size={20} className="text-green-700" />
+                <div className="w-10 h-10 rounded-base bg-gold-100 flex items-center justify-center flex-shrink-0">
+                  <action.icon size={20} className="text-gold-700" />
                 </div>
                 <div>
-                  <h3 className="font-heading font-semibold text-green-900">
+                  <h3 className="font-heading font-semibold text-ink-900">
                     {action.label}
                   </h3>
-                  <p className="text-xs text-gray-500 mt-0.5">
+                  <p className="text-xs text-stone-500 mt-0.5">
                     {action.description}
                   </p>
                 </div>

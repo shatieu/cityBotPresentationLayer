@@ -15,9 +15,9 @@ const adTypeLabels: Record<string, string> = {
   job: "Práce",
 };
 
-const adTypeVariants: Record<string, "default" | "green" | "amber" | "gray"> = {
-  offer: "green",
-  request: "amber",
+const adTypeVariants: Record<string, "default" | "gold" | "wine" | "stone"> = {
+  offer: "gold",
+  request: "wine",
   job: "default",
 };
 
@@ -27,22 +27,22 @@ export function ClassifiedCard({ ad }: ClassifiedCardProps) {
       <Card>
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
-            <h3 className="font-heading font-semibold text-green-900">
+            <h3 className="font-heading font-semibold text-ink-900">
               {ad.title}
             </h3>
             <div className="flex flex-wrap items-center gap-2 mt-1.5">
-              <Badge variant={adTypeVariants[ad.ad_type] ?? "gray"}>
+              <Badge variant={adTypeVariants[ad.ad_type] ?? "stone"}>
                 {adTypeLabels[ad.ad_type] ?? ad.ad_type}
               </Badge>
               {ad.category && (
-                <Badge variant="gray">{ad.category}</Badge>
+                <Badge variant="stone">{ad.category}</Badge>
               )}
             </div>
             <div className="flex items-center gap-2 mt-2">
               {ad.price && (
-                <span className="font-data text-sm text-amber-700">{ad.price}</span>
+                <span className="font-data text-sm text-wine-700">{ad.price}</span>
               )}
-              <span className="text-xs text-gray-500">
+              <span className="text-xs text-stone-500">
                 {ad.location} · {formatRelativeDate(ad.created_at)}
               </span>
             </div>

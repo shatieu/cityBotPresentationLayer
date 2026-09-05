@@ -45,11 +45,11 @@ export function ChatWindow() {
 
   return (
     <div className="flex flex-col h-[500px] max-h-[70vh] bg-surface rounded-base shadow-card overflow-hidden">
-      <div className="px-4 py-3 border-b border-gray-100 bg-white">
-        <h3 className="font-heading font-semibold text-green-900">
+      <div className="px-4 py-3 border-b border-stone-100 bg-white">
+        <h3 className="font-heading font-semibold text-ink-900">
           Průvodce firmami
         </h3>
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-stone-500">
           Zeptejte se, co potřebujete
         </p>
       </div>
@@ -63,14 +63,14 @@ export function ChatWindow() {
         {loading && (
           <div className="flex justify-start">
             <div className="bg-white shadow-card px-3 py-2 rounded-base">
-              <span className="text-sm text-gray-500 animate-pulse">
+              <span className="text-sm text-stone-500 animate-pulse">
                 Přemýšlím...
               </span>
             </div>
           </div>
         )}
       </div>
-      <div className="px-4 py-3 border-t border-gray-100 bg-white">
+      <div className="px-4 py-3 border-t border-stone-100 bg-white">
         <ChatInput onSend={handleSend} disabled={loading} />
       </div>
     </div>

@@ -20,8 +20,8 @@ export function FilterChips({ options, value, onChange }: FilterChipsProps) {
           onClick={() => onChange(option.value)}
           className={`flex-shrink-0 px-3 py-1.5 text-sm font-medium rounded-sm transition-colors ${
             value === option.value
-              ? "bg-green-700 text-white"
-              : "bg-white text-gray-700 border border-gray-300 hover:border-green-500"
+              ? "bg-gold-700 text-white"
+              : "bg-white text-stone-700 border border-stone-300 hover:border-gold-500"
           }`}
         >
           {option.label}

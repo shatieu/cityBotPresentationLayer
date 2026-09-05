@@ -52,7 +52,7 @@ export function MenuEntryForm({ onSubmit }: MenuEntryFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4 max-w-2xl">
-      <h3 className="font-heading font-semibold text-green-900">
+      <h3 className="font-heading font-semibold text-ink-900">
         Denní menu
       </h3>
       {items.map((item, i) => (
@@ -84,7 +84,7 @@ export function MenuEntryForm({ onSubmit }: MenuEntryFormProps) {
           <button
             type="button"
             onClick={() => removeItem(i)}
-            className="p-2 text-gray-500 hover:text-error transition-colors"
+            className="p-2 text-stone-500 hover:text-error transition-colors"
             aria-label="Odebrat položku"
           >
             <Trash2 size={16} />
@@ -94,7 +94,7 @@ export function MenuEntryForm({ onSubmit }: MenuEntryFormProps) {
       <button
         type="button"
         onClick={addItem}
-        className="inline-flex items-center gap-1.5 text-sm text-green-700 hover:text-green-500 font-medium transition-colors"
+        className="inline-flex items-center gap-1.5 text-sm text-gold-700 hover:text-gold-500 font-medium transition-colors"
       >
         <Plus size={16} />
         Přidat položku

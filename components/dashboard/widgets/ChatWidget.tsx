@@ -47,9 +47,9 @@ export function ChatWidget() {
       icon="MessageCircle"
       href="/firmy/chat"
       size="medium"
-      accent="green"
+      accent="gold"
       loading={false}
-      className="bg-green-900/[0.03]"
+      className="bg-ink-900/[0.03]"
     >
       <div className="flex flex-col h-[280px]">
         <div
@@ -61,7 +61,7 @@ export function ChatWidget() {
           ))}
           {loading && (
             <div className="flex justify-start">
-              <span className="text-xs text-gray-500 animate-pulse bg-green-50 px-2.5 py-1 rounded-base">
+              <span className="text-xs text-stone-500 animate-pulse bg-gold-50 px-2.5 py-1 rounded-base">
                 Přemýšlím...
               </span>
             </div>

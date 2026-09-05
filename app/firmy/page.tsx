@@ -26,10 +26,10 @@ export default function FirmyPage() {
     <PageContainer className="py-6">
       <div className="flex items-start justify-between gap-4 mb-4">
         <div>
-          <h1 className="font-heading text-2xl font-bold text-green-900 mb-1">
+          <h1 className="font-heading text-2xl font-bold text-ink-900 mb-1">
             Firmy a služby
           </h1>
-          <p className="text-sm text-gray-700">
+          <p className="text-sm text-stone-700">
             Najděte firmu, řemeslníka nebo službu ve Znojmě
           </p>
         </div>

@@ -29,13 +29,13 @@ export function Modal({ open, onClose, title, children }: ModalProps) {
     <dialog
       ref={dialogRef}
       onClose={onClose}
-      className="fixed inset-0 z-50 m-auto w-full max-w-lg rounded-base bg-white shadow-card-hover p-0 backdrop:bg-gray-900/30"
+      className="fixed inset-0 z-50 m-auto w-full max-w-lg rounded-base bg-white shadow-card-hover p-0 backdrop:bg-ink-900/30"
     >
-      <div className="flex items-center justify-between p-4 border-b border-gray-100">
-        <h2 className="font-heading font-semibold text-green-900">{title}</h2>
+      <div className="flex items-center justify-between p-4 border-b border-stone-100">
+        <h2 className="font-heading font-semibold text-ink-900">{title}</h2>
         <button
           onClick={onClose}
-          className="p-1 text-gray-500 hover:text-gray-900 transition-colors"
+          className="p-1 text-stone-500 hover:text-ink-900 transition-colors"
           aria-label="Zavřít"
         >
           <X size={20} />

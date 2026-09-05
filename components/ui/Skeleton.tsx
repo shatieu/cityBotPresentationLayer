@@ -12,7 +12,7 @@ export function Skeleton({ className = "", width, height, lines }: SkeletonProps
         {Array.from({ length: lines }).map((_, i) => (
           <div
             key={i}
-            className="animate-pulse rounded-sm bg-gray-100"
+            className="animate-pulse rounded-sm bg-stone-100"
             style={{
               width: i === lines - 1 ? "75%" : width || "100%",
               height: height || "14px",
@@ -25,7 +25,7 @@ export function Skeleton({ className = "", width, height, lines }: SkeletonProps
 
   return (
     <div
-      className={`animate-pulse rounded-sm bg-gray-100 ${className}`}
+      className={`animate-pulse rounded-sm bg-stone-100 ${className}`}
       style={{ width: width || "100%", height: height || "14px" }}
     />
   );

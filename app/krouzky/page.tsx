@@ -36,7 +36,7 @@ export default function KrouzkyPage() {
 
   return (
     <PageContainer className="py-6">
-      <h1 className="font-heading text-2xl font-bold text-green-900 mb-4">
+      <h1 className="font-heading text-2xl font-bold text-ink-900 mb-4">
         Kroužky a aktivity
       </h1>
 

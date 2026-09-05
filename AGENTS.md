@@ -9,10 +9,10 @@ This repo owns the user-facing Next.js application. It reads data via the API de
 **All visual decisions are governed by `../VISUAL_IDENTITY.md`.** That file is the definitive reference for colors, typography, spacing, radii, imagery, motion, and anti-patterns. Do not make visual choices that contradict it. When in doubt, check the identity doc.
 
 Key constraints (non-negotiable):
-- Greenish + warm palette only. No violet, blue, dark backgrounds, bleached pastels.
+- Gold (primary) + wine (secondary accent) + warm stone neutrals. Green appears only as the single `success` semantic token — it is not a UI color family. No violet, blue, dark backgrounds, bleached pastels.
 - Corner radius: 4px maximum everywhere.
-- Real Znojmo photography only — no stock, no AI-generated images.
-- No AI-looking design: no oversized rounded corners, no CSS-only icons, no gradient blobs, no frosted glass.
+- Real Znojmo photography only — no stock, no AI-generated images. Until real photography lands, use the quarried-stone placeholder texture system documented in `VISUAL_IDENTITY.md` §6, not flat generic swatches.
+- No AI-looking design: no oversized rounded corners, no CSS-only icons, no gradient blobs, no frosted glass/`backdrop-blur`.
 - Lucide React for all icons, always paired with a text label.
 
 ---
@@ -41,33 +41,34 @@ app/globals.css       ← THE source of truth for all visual tokens
 @import "tailwindcss";
 
 @theme {
-  /* --- Colors: Green (primary) --- */
-  --color-green-900: #2D3A1E;
-  --color-green-700: #4A6B2A;
-  --color-green-500: #5E8A35;
-  --color-green-300: #A3C47D;
-  --color-green-100: #E4EDDA;
-  --color-green-50:  #F2F6EE;
+  /* --- Colors: Gold (primary) --- */
+  --color-gold-900: #4A3610;
+  --color-gold-700: #8A6416;
+  --color-gold-500: #AD7A12;
+  --color-gold-300: #D9B65C;
+  --color-gold-100: #F0E0B8;
+  --color-gold-50:  #FAF3E1;
 
-  /* --- Colors: Amber (accent) --- */
-  --color-amber-700: #B8860B;
-  --color-amber-500: #D4A024;
-  --color-amber-300: #E8C965;
-  --color-amber-100: #FDF4DC;
+  /* --- Colors: Wine (secondary accent) --- */
+  --color-wine-700: #7A2E3A;
+  --color-wine-500: #9C4152;
+  --color-wine-300: #D99BA8;
+  --color-wine-100: #F5E3E6;
 
-  /* --- Colors: Warm neutrals --- */
-  --color-gray-900:  #2C2A26;
-  --color-gray-700:  #5C5850;
-  --color-gray-500:  #8A857C;
-  --color-gray-300:  #C4BFB6;
-  --color-gray-100:  #EDEAE5;
-  --color-surface:   #F5F3EF;
-  --color-white:     #FEFEFE;
+  /* --- Colors: Stone (neutrals) --- */
+  --color-ink-900:   #2A2018;
+  --color-stone-700: #5B5039;
+  --color-stone-500: #8C8064;
+  --color-stone-300: #D3C4A0;
+  --color-stone-100: #ECE2CC;
+  --color-surface:   #F7F2E7;
+  --color-white:     #FFFCF6;
 
   /* --- Colors: Semantic --- */
-  --color-success:   #5E8A35;
-  --color-warning:   #D4A024;
-  --color-error:     #C4513A;
+  --color-success:   #3F6B46;
+  --color-warning:   #AD7A12;
+  --color-error:     #B8503A;
+  --color-info:      #8A6416;
 
   /* --- Typography --- */
   --font-heading: "Space Grotesk", system-ui, sans-serif;
@@ -79,9 +80,9 @@ app/globals.css       ← THE source of truth for all visual tokens
   --radius-base: 4px;
 
   /* --- Shadows --- */
-  --shadow-card:       0 1px 3px rgba(44, 42, 38, 0.08), 0 1px 2px rgba(44, 42, 38, 0.04);
-  --shadow-card-hover: 0 4px 12px rgba(44, 42, 38, 0.10), 0 2px 4px rgba(44, 42, 38, 0.06);
-  --shadow-nav:        0 1px 2px rgba(44, 42, 38, 0.06);
+  --shadow-card:       0 1px 3px rgba(42, 32, 24, 0.10), 0 1px 2px rgba(42, 32, 24, 0.05);
+  --shadow-card-hover: 0 4px 12px rgba(42, 32, 24, 0.12), 0 2px 4px rgba(42, 32, 24, 0.06);
+  --shadow-nav:        0 1px 2px rgba(42, 32, 24, 0.08);
 }
 ```
 
@@ -89,16 +90,16 @@ app/globals.css       ← THE source of truth for all visual tokens
 
 **DO** use Tailwind utility classes mapped to theme tokens:
 ```tsx
-<h1 className="font-heading text-green-900 text-2xl">Restaurace</h1>
+<h1 className="font-heading text-ink-900 text-2xl">Restaurace</h1>
 <div className="bg-white shadow-card rounded-base p-4">...</div>
-<span className="font-data text-amber-700">149 Kč</span>
+<span className="font-data text-wine-700">149 Kč</span>
 ```
 
 **DO NOT** hardcode values:
 ```tsx
 // ❌ NEVER
-<div style={{ color: '#4A6B2A' }}>
-<div className="bg-[#4A6B2A]">
+<div style={{ color: '#8A6416' }}>
+<div className="bg-[#8A6416]">
 <div className="rounded-lg">  // lg = 8px, exceeds 4px max
 ```
 
